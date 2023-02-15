@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Film P3 Narrow';
+    src: url('FilmP3NarrowLight.eot');
+    src: local('Film P3 Narrow Light'), local('FilmP3NarrowLight'),
+        url('FilmP3NarrowLight.eot?#iefix') format('embedded-opentype'),
+        url('FilmP3NarrowLight.woff2') format('woff2'),
+        url('FilmP3NarrowLight.woff') format('woff'),
+        url('FilmP3NarrowLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Film P3';
+    src: url('FilmP3Light.eot');
+    src: local('Film P3 Light'), local('FilmP3Light'),
+        url('FilmP3Light.eot?#iefix') format('embedded-opentype'),
+        url('FilmP3Light.woff2') format('woff2'),
+        url('FilmP3Light.woff') format('woff'),
+        url('FilmP3Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Film P3 Narrow';
+    src: url('FilmP3NarrowBold.eot');
+    src: local('Film P3 Narrow Bold'), local('FilmP3NarrowBold'),
+        url('FilmP3NarrowBold.eot?#iefix') format('embedded-opentype'),
+        url('FilmP3NarrowBold.woff2') format('woff2'),
+        url('FilmP3NarrowBold.woff') format('woff'),
+        url('FilmP3NarrowBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Film P3';
+    src: url('FilmP3.eot');
+    src: local('Film P3'), local('FilmP3'),
+        url('FilmP3.eot?#iefix') format('embedded-opentype'),
+        url('FilmP3.woff2') format('woff2'),
+        url('FilmP3.woff') format('woff'),
+        url('FilmP3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Film P3 Wide';
+    src: url('FilmP3Wide.eot');
+    src: local('Film P3 Wide'), local('FilmP3Wide'),
+        url('FilmP3Wide.eot?#iefix') format('embedded-opentype'),
+        url('FilmP3Wide.woff2') format('woff2'),
+        url('FilmP3Wide.woff') format('woff'),
+        url('FilmP3Wide.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Film P3 Narrow';
+    src: url('FilmP3Narrow.eot');
+    src: local('Film P3 Narrow'), local('FilmP3Narrow'),
+        url('FilmP3Narrow.eot?#iefix') format('embedded-opentype'),
+        url('FilmP3Narrow.woff2') format('woff2'),
+        url('FilmP3Narrow.woff') format('woff'),
+        url('FilmP3Narrow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Film P3';
+    src: url('FilmP3Bold.eot');
+    src: local('Film P3 Bold'), local('FilmP3Bold'),
+        url('FilmP3Bold.eot?#iefix') format('embedded-opentype'),
+        url('FilmP3Bold.woff2') format('woff2'),
+        url('FilmP3Bold.woff') format('woff'),
+        url('FilmP3Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Film P3 Wide';
+    src: url('FilmP3WideLight.eot');
+    src: local('Film P3 Wide Light'), local('FilmP3WideLight'),
+        url('FilmP3WideLight.eot?#iefix') format('embedded-opentype'),
+        url('FilmP3WideLight.woff2') format('woff2'),
+        url('FilmP3WideLight.woff') format('woff'),
+        url('FilmP3WideLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Film P3 Wide';
+    src: url('FilmP3WideBold.eot');
+    src: local('Film P3 Wide Bold'), local('FilmP3WideBold'),
+        url('FilmP3WideBold.eot?#iefix') format('embedded-opentype'),
+        url('FilmP3WideBold.woff2') format('woff2'),
+        url('FilmP3WideBold.woff') format('woff'),
+        url('FilmP3WideBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

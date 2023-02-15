@@ -5,20 +5,23 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
-
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./about_our_restaurant.css');
+@import url('./details_of_our_restaurant.css');
+@import url('./about-our-hotel.css');
+@import url('./details-of-our-hotel.css');
+@import url('./contacts.css');
+@import url('./footer.css');
+@import url('./hero-rest.css');
+@import url('./about-our-kitchen.css');
+@import url('./menu.css');
+@import url('./hero-hotel.css');
+@import url('./room-luxe.css');
+@import url('./room-for-three.css');
+@import url('./room-for-two.css');
+@import url('./hero-room.css');
+@import url('./amenities.css');
+@import url('./book-room-modal.css');
+@import url('./book-table-modal.css');
+@import url('./room-price-modal.css');
