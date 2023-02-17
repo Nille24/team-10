@@ -1,0 +1,62 @@
+.amenities {
+  background-color: #FFFDEE;
+}
+
+.room-page-title {
+font-family: 'Times New Roman';
+font-weight: 400;
+font-size: 32px;
+line-height: 1.16;
+color: var(--black-color);
+margin-bottom: 16px;
+}
+
+.room-page-text {
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.02em;
+color: var(--text-grey);
+}
+
+.room-page-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 32px;
+}
+
+.room-page-item {
+}
+
+.room-page-undertitle {
+font-family: 'Times New Roman';
+font-weight: 700;
+font-size: 24px;
+line-height: 1.17;
+color: var(--black-color);
+margin-bottom: 16px;
+}
+
+.booking-btn {
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: var(--white-color);
+background: var(--black-color);
+border: 1px solid var(--accent-color);
+border-radius: 25px;
+}
+
+.room-page-link {
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.02em;
+color: var(--brown-color);
+}
+
+.room-page-icon {
+}

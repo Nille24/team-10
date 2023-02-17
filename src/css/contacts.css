@@ -1,0 +1,73 @@
+.contacts {
+  padding-top: 36px;
+  padding-bottom: 32px;
+  background: #FFFDEE;
+}
+.contacts-title {
+
+}
+
+.contacts-logo-title {
+font-family: 'Film P3';
+font-size: 40px;
+line-height: 1.07;
+letter-spacing: 0.3em;
+color: #494848;
+text-align: left;
+margin-bottom: 12px;
+}
+
+.contacts-under-title {
+  font-family: 'Montserrat';
+font-weight: 600;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.02em;
+color: var(--text-grey);
+text-align: left;
+}
+
+
+.contacts-item {
+  display: flex;
+  
+}
+.contacts-text {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--brown-color);
+}
+
+.contacts-text-address {
+visibility: hidden;
+}
+
+.contacts-icon {
+}
+
+.contacts-tel,
+.contacts-address {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #494848;
+
+background: #FFFFFF;
+border: 0.5px solid #F3C653;
+border-radius: 2px;
+
+}
+
+
+
+.contacts-phones-item {
+
+}
+
