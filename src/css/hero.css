@@ -1,0 +1,79 @@
+.hero {
+    width: 100%;
+    background-color: #474747;
+}
+
+.hero-title {
+    font-family: 'Film P3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1.07;
+    letter-spacing: 0.3em;
+    color: var(--white-color);
+}
+
+.hero-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+}
+
+.hero-post-text-graph {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.12;
+    letter-spacing: 0.05em;
+    color: var(--white-color);
+}
+
+.hero-link {
+    display: block;
+    width: 210px;
+    height: 47px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.01em;
+    color: #E5E5E5;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+}
+
+.hero-btn-teble {
+    min-width: 236px;
+    height: 48px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid var(--white-color);
+    border-radius: 25px;
+}
+
+.hero-btn-number {
+    min-width: 232px;
+    height: 48px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid var(--white-color);
+    border-radius: 25px;
+}
