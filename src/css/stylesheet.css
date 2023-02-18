@@ -8,7 +8,7 @@
  url('../Fonts/FilmP3Bold.woff') format('woff'),
  url('../Fonts/FilmP3Bold.woff2') format('woff2');
  font-style: normal;
- font-weight: 700px;
+ font-weight: 700;
 }
 
 @font-face {
@@ -18,7 +18,7 @@
     url('../Fonts/Montserrat-Regular.woff') format('woff'),
     url('../Fonts/Montserrat-Regular.woff2') format('woff2');
     font-style: normal;
-    font-weight: 400px;
+    font-weight: 400;
    }
 
    @font-face {
@@ -28,7 +28,7 @@
     url('../Fonts/Montserrat-Light.woff') format('woff'),
     url('../Fonts/Montserrat-Light.woff2') format('woff2');
     font-style: normal;
-    font-weight: 300px;
+    font-weight: 300;
    }
 
    @font-face {
@@ -38,7 +38,7 @@
     url('../Fonts/Montserrat-Medium.woff') format('woff'),
     url('../Fonts/Montserrat-Medium.woff2') format('woff2');
     font-style: normal;
-    font-weight: 500px;
+    font-weight: 500;
    }
 
    @font-face {
@@ -48,7 +48,7 @@
     url('../Fonts/Montserrat-SemiBold.woff') format('woff'),
     url('../Fonts/Montserrat-SemiBold.woff2') format('woff2');
     font-style: normal;
-    font-weight: 600px;
+    font-weight: 600;
    }
 
    @font-face {
@@ -58,7 +58,7 @@
     url('../Fonts/Montserrat-Bold.woff') format('woff'),
     url('../Fonts/Montserrat-Bold.woff2') format('woff2');
     font-style: normal;
-    font-weight: 700px;
+    font-weight: 700;
    }
 
 
@@ -69,7 +69,7 @@
     url('../Fonts/TimesNewRomanPSMT.woff') format('woff'),
     url('../Fonts/TimesNewRomanPSMT.woff2') format('woff2');
     font-style: normal;
-    font-weight: 400px;
+    font-weight: 400;
    }
 
    @font-face {
@@ -79,5 +79,5 @@
     url('../Fonts/TimesNewRomanPS-BoldMT.woff') format('woff'),
     url('../Fonts/TimesNewRomanPS-BoldMT.woff2') format('woff2');
     font-style: normal;
-    font-weight: 700px;
+    font-weight: 700;
    }
