@@ -68,10 +68,10 @@
     max-width: 1024px;
   }
 
-  .header-nav {
+  /* .header-nav {
     margin-left: 32px;
     margin-right: 32px;
-  }
+  } */
 
   .logo {
     font-size: 40px;
@@ -128,13 +128,48 @@
 
   .social-ul {
     display: flex;
-    gap: 23px;
     color: #f3c653;
   }
 
   .header-main {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-between; */
+    margin-left: 70px;
+    margin-right: 70px;
   }
+
+   .header-nav-ul {
+    gap: 0;
+   
+  }
+
+  .header-nav-li {
+    gap: 0;
+  } 
+.header-nav {
+    margin-left: 0px;
+    margin-right: 140px;
+
+  }
+
+  .logo {
+    margin-right: 105px;
+  }
+
+  .social-li:not(:last-child) {
+    margin-right: 23px;
+  }
+
+}
+
+/* ----------------Отдельные промежутки----------- */
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  
+  .header-nav {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  
 }
