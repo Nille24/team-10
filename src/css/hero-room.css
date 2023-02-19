@@ -269,7 +269,7 @@
   screen and (min-resolution: 192dpi) and (min-width: 320px),
   screen and (min-resolution: 2dppx) and (min-width: 320px) {
   .hero-room.hero-room-three {
-    background-image: url(../img/hotelrooms_more_slider_8_desktop.jpg);
+    background-image: url(../img/hotelrooms_more_slider_8_desktop@2x.jpg);
   }
 }
 
@@ -328,7 +328,7 @@
   screen and (min-resolution: 192dpi) and (min-width: 320px),
   screen and (min-resolution: 2dppx) and (min-width: 320px) {
   .hero-room.hero-room-two {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.4)), url(../img/hotelrooms_more_slider_5_desktop.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.4)), url(../img/hotelrooms_more_slider_5_desktop@2x.jpg);
   }
 }
 
