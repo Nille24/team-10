@@ -1,0 +1,62 @@
+.details-of-our-restaurant{
+    padding-top: 24px;
+    padding-bottom: 40px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.65) , rgba(0, 0, 0, 0.65)) , url(../img/homepage_restaurant_bg_desktop.jpg);
+    background-repeat: no-repeat;
+}
+
+.hero-name-restaurant{
+font-family: 'Film P3';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 0.87;
+letter-spacing: 0.3em;
+color: var(--white-color);
+}
+
+.restaurant-name{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 0.83;
+letter-spacing: 0.02em;
+color: var(--white-color);
+}
+
+.info-restaurant{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 0.8;
+letter-spacing: 0.02em;
+color: var(--third-grey);
+}
+
+.book-a-table{
+background: rgba(0, 0, 0, 0.4);
+border: 2px solid var(--white-color);
+border-radius: 25px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 0.8;
+letter-spacing: 0.02em;
+color: var(--accent-color); 
+}
+
+.restaurant-link{
+background: rgba(0, 0, 0, 0.4);
+border: 2px solid var(--white-color);
+border-radius: 25px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 0.8;
+letter-spacing: 0.02em;
+color: var(--accent-color); 
+}
