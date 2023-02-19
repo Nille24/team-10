@@ -115,7 +115,7 @@
 
   padding: 14px 24px;
 
-  transition: background-color var(--transition), border var(--transition);;
+  transition: background-color var(--transition), border var(--transition);
 }
 
 .booking-restoraunt-btn:hover,
