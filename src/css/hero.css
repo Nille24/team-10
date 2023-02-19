@@ -1,6 +1,7 @@
 .hero {
     width: 100%;
     background-color: #474747;
+    padding-top: 126px;
 }
 
 .hero-title {
@@ -11,6 +12,7 @@
     line-height: 1.07;
     letter-spacing: 0.3em;
     color: var(--white-color);
+    margin-bottom: 24px;
 }
 
 .hero-text {
@@ -21,6 +23,7 @@
     line-height: 1.25;
     letter-spacing: 0.02em;
     color: var(--white-color);
+    margin-bottom: 40px;
 }
 
 .hero-post-text-graph {
@@ -32,11 +35,36 @@
     letter-spacing: 0.05em;
     color: var(--white-color);
 }
-
-.hero-link {
-    display: block;
-    width: 210px;
+.hero-address-tap {
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+    max-width: 210px;
     height: 47px;
+
+}
+
+.hero-address {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-left: 11px;
+}
+
+.hero-address-link::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/location.svg);
+    background-size: contain;
+    display: inline-flex;
+}
+
+.hero-address-text {
+    display: inline-block;
+    text-align: left;
+    max-width: 179px;
+    margin-left: 13px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -44,12 +72,7 @@
     line-height: 1.25;
     letter-spacing: 0.01em;
     color: #E5E5E5;
-    border: 1px solid rgba(243, 198, 83, 0.7);
-    border-radius: 2px;
-    padding-top: 8px;
-    padding-bottom: 9px;
 }
-
 .hero-btn-teble {
     min-width: 236px;
     height: 48px;
