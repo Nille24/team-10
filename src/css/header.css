@@ -144,8 +144,7 @@
   .header-main {
     display: flex;
     align-items: center;
-    /* margin-left: 70px;
-    margin-right: 70px; */
+  
   }
 
 
@@ -179,11 +178,7 @@
   
 }
 
-/* @media screen and (min-width: 320px) and (max-width: 413px) {
-  
-  .header-nav-ul {
-    gap: 20px;
-  } */
+
   
 
 
