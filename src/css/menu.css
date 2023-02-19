@@ -100,8 +100,8 @@
   margin-left: auto;
   margin-right: auto;
 
-  background-color: #000000;
-  border: 2px solid #fff;
+  background-color: var(--black-color);
+  border: 2px solid var(--white-color);
   border-radius: 25px;
 
 
@@ -115,14 +115,14 @@
 
   padding: 14px 24px;
 
-  transition: background-color var(--transition), border var(--transition);;
+  transition: background-color var(--transition), border var(--transition);
 }
 
 .booking-restoraunt-btn:hover,
 .booking-restoraunt-btn:focus,
 .booking-restoraunt-btn:active {
-  background-color: #ffffff;
-  border: 2px solid #f3c653;
+  background-color: var(--white-color);
+  border: 2px solid var(--accent-color);
 }
 
 /* ------------------ 414 */
