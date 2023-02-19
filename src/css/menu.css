@@ -31,11 +31,16 @@
 .menu-garnish,
 .menu-salads,
 .menu-deserts {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .menu-drinks {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
+}
+
+.menu-dish-description.last-dishes,
+.menu-dish-name.last-dishes{
+  margin-bottom: 0;
 }
 
 .menu-dish {
@@ -64,7 +69,6 @@
   letter-spacing: 0.02em;
 
   text-align: left;
-
   margin-bottom: 8px;
 }
 
@@ -96,7 +100,7 @@
   margin-left: auto;
   margin-right: auto;
 
-  background: #000000;
+  background-color: #000000;
   border: 2px solid #fff;
   border-radius: 25px;
 
@@ -110,12 +114,14 @@
   color: var(--accent-color);
 
   padding: 14px 24px;
+
+  transition: background-color var(--transition), border var(--transition);;
 }
 
 .booking-restoraunt-btn:hover,
 .booking-restoraunt-btn:focus,
 .booking-restoraunt-btn:active {
-  background: #ffffff;
+  background-color: #ffffff;
   border: 2px solid #f3c653;
 }
 
@@ -156,7 +162,7 @@
   .menu-garnish,
   .menu-salads,
   .menu-deserts {
-    margin-bottom: 12px;
+    margin-bottom: 20px;
   }
 
   .menu-drinks {
@@ -215,12 +221,6 @@
     font-size: 16px;
   }
 
-  .menu-hot-dish,
-  .menu-garnish,
-  .menu-salads,
-  .menu-deserts {
-    margin-bottom: 8px;
-  }
 
   .menu-drinks {
     margin-bottom: 48px;
