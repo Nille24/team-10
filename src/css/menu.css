@@ -1,0 +1,228 @@
+.menu {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.menu-main-title {
+  font-family: Times New Roman;
+
+  font-weight: 700;
+  font-size: 28px;
+  line-height: calc(37 / 32);
+
+  text-align: left;
+
+  margin-bottom: 32px;
+}
+
+.menu-title {
+  font-family: Times New Roman;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: calc(23 / 20);
+
+  text-align: left;
+
+  margin-bottom: 16px;
+}
+
+.menu-hot-dish,
+.menu-garnish,
+.menu-salads,
+.menu-deserts {
+  margin-bottom: 16px;
+}
+
+.menu-drinks {
+  margin-bottom: 32px;
+}
+
+.menu-dish-description.last-dishes,
+.menu-dish-name.last-dishes{
+  margin-bottom: 0;
+}
+
+.menu-dish {
+  width: 50vw;
+}
+
+.menu-dish-name {
+  font-family: Montserrat;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  letter-spacing: 0.02em;
+
+  text-align: left;
+
+  margin-bottom: 4px;
+}
+
+.menu-dish-description {
+  font-family: Montserrat;
+
+  font-weight: 400;
+  font-size: 10px;
+  line-height: calc(12 / 10);
+  letter-spacing: 0.02em;
+
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.menu-dish-weight {
+  font-family: Montserrat;
+
+  font-weight: 300;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  letter-spacing: 0.02em;
+
+  width: 25vw;
+}
+
+.menu-dish-price {
+  font-family: Montserrat;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  letter-spacing: 0.02em;
+
+  width: 25vw;
+}
+
+.booking-restoraunt-btn {
+  min-width: 236px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #000000;
+  border: 2px solid #fff;
+  border-radius: 25px;
+
+
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.02em;
+
+  color: var(--accent-color);
+
+  padding: 14px 24px;
+
+  transition: background-color var(--transition), border var(--transition);;
+}
+
+.booking-restoraunt-btn:hover,
+.booking-restoraunt-btn:focus,
+.booking-restoraunt-btn:active {
+  background-color: #ffffff;
+  border: 2px solid #f3c653;
+}
+
+/* ------------------ 414 */
+
+@media screen and (min-width: 414px) {
+  .menu-main-title {
+    font-size: 32px;
+  }
+}
+
+/* ------------------ 1024 */
+
+@media screen and (min-width: 1024px) {
+  .menu {
+    background-color: #f0ecd6;
+
+    padding-top: 58px;
+    padding-bottom: 40px;
+  }
+
+  .menu-main-title {
+    font-size: 32px;
+
+    margin-bottom: 40px;
+  }
+
+  .menu-wrap {
+    display: flex;
+    gap: 88px;
+  }
+
+  .menu-title {
+    margin-bottom: 20px;
+  }
+
+  .menu-hot-dish,
+  .menu-garnish,
+  .menu-salads,
+  .menu-deserts {
+    margin-bottom: 20px;
+  }
+
+  .menu-drinks {
+    margin-bottom: 64px;
+  }
+
+  .menu-dish {
+    width: 60vw;
+  }
+
+  .menu-dish-name.deserts,
+  .menu-dish-name.drinks {
+    margin-bottom: 8px;
+  }
+
+  .menu-dish-weight {
+    width: 15vw;
+  }
+
+  .menu-dish-price {
+    width: 15vw;
+  }
+
+  .booking-restoraunt-btn {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+/* ------------------ 1280 */
+
+@media screen and (min-width: 1280px) {
+  .menu {
+    padding-top: 58px;
+    padding-bottom: 60px;
+  }
+
+  .menu-wrap {
+    gap: 140px;
+  }
+
+  .menu-title {
+    font-size: 24px;
+  }
+
+  .menu-dish {
+    width: 34vw;
+    margin-bottom: 12px;
+  }
+
+  .menu-dish-name {
+    font-size: 16px;
+  }
+
+  .menu-dish-price {
+    font-size: 16px;
+  }
+
+
+  .menu-drinks {
+    margin-bottom: 48px;
+  }
+}
