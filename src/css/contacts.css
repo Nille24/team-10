@@ -18,7 +18,7 @@
 }
 
 .contacts-under-title {
-  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.25;
@@ -28,10 +28,10 @@
 }
 
 .contacts-list {
-  padding-bottom: 32px;
   display: flex;
   flex-direction: column;
   row-gap: 12px;
+  margin-bottom: 16px;
 }
 
 .contacts-item {
@@ -39,11 +39,10 @@
 
 .contacts-wrap {
   display: flex;
-  align-items: baseline;
 }
 
 .contacts-text-rest {
-  /* font-family: 'Montserrat'; */
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -51,7 +50,9 @@
   letter-spacing: 0.02em;
   color: var(--brown-color);
   margin-right: 22px;
-  margin-bottom: 32px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
 }
 
 .contacts-rest-tels {
@@ -60,41 +61,37 @@
   border-radius: 2px;
   width: 144px;
   height: 40px;
+  display: flex;
+  justify-content: center;
 }
 
-.contacts-rest-tels {
-  margin-bottom: 16px;
-  padding-right: 5px;
-}
-
-.contacts-tel,
-.contacts-tel-second {
-  /* font-family: 'Montserrat'; */
+.contacts-rest-tel {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #494848;
+  display: flex;
+  align-items: center;
 }
 
-.contacts-tel::before {
+.contacts-rest-tel::before,
+.contacts-hotel-tel:first-child:before {
   content: '';
   width: 24px;
   height: 24px;
   background-image: url(../img/phone.svg);
   background-size: contain;
+  background-repeat: no-repeat;
   display: inline-flex;
   align-items: center;
-}
-
-.contacts-icon {
-  fill: var(--brown-color);
   margin-right: 8px;
 }
 
 .contacts-text-hotel {
-  /* font-family: 'Montserrat'; */
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -102,6 +99,9 @@
   letter-spacing: 0.02em;
   color: var(--brown-color);
   margin-right: 54px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
 }
 
 .contacts-hotels-tels {
@@ -110,12 +110,23 @@
   border-radius: 2px;
   height: 40px;
   width: 260px;
- padding-right: 5px;
-
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+justify-content: center;
 }
 
-.contacts-tel-second {
-  margin-left: 12px;
+.contacts-hotel-tel {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-hotel-link {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #494848;
 }
 
 .contacts-address-tap {
@@ -127,12 +138,13 @@
   margin-bottom: 32px;
   margin-left: auto;
   margin-bottom: 32px;
+  display: flex;
 }
 
 .contacts-address {
   display: flex;
   align-items: center;
-  padding: 8px 33px 7px 10px;
+  margin-left: 8px;
 }
 
 .contacts-address-link::before {
@@ -142,14 +154,13 @@
   background-image: url(../img/location.svg);
   background-size: contain;
   display: inline-flex;
+  margin-right: 8px;
 }
 
 .contacts-address-text {
-  display: inline-block;
   text-align: left;
   max-width: 183px;
-  margin-left: 10px;
-  /* font-family: 'Montserrat'; */
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -158,93 +169,86 @@
   color: #494848;
 }
 
+/* --------- TABLET  --------- */
+
 @media screen and (min-width: 1024px) {
-  
   .container {
     padding-left: 47px;
     padding-right: 47px;
-
   }
 
-.contacts-container {
-  display: flex;
-}
+  .contacts-container {
+    display: flex;
+  }
 
-.tablet-wrap {
-  margin-right: 100px;
-}
+  .tablet-wrap {
+    margin-right: 100px;
+  }
 
-.contacts-logo-title {
-font-size: 64px;
-line-height: 69px;
-letter-spacing: 0.3em;
-}
+  .contacts-logo-title {
+    font-size: 64px;
+    line-height: 69px;
+    letter-spacing: 0.3em;
+  }
 
-.contacts-under-title {
-  margin-bottom: 52px;
-}
+  .contacts-under-title {
+    margin-bottom: 52px;
+  }
 
-.contacts-wrap {
-  flex-direction: column;
-}
+  .contacts-wrap {
+    flex-direction: column;
+  }
 
-.contacts-rest-tels {
-  margin-bottom: 0;
-}
+  .contacts-rest-tels {
+    margin-bottom: 0;
+  }
 
-.contacts-text-rest,
-.contacts-text-hotel {
-  margin-bottom: 8px;
-}
+  .contacts-text-rest,
+  .contacts-text-hotel {
+    margin-bottom: 8px;
+  }
 
+  .contacts-hotels-tels {
+    width: 264px;
+  }
 
+  .contacts-address-tap {
+    margin-left: 0;
+    max-width: 285px;
+    height: 56px;
+  }
 
-.contacts-hotels-tels {
-  width: 264px;
-}
-
-.contacts-address-tap {
-  margin-left: 0;
-  max-width: 285px;
-  height: 56px;
-}
-
-.contacts-address {
-  padding-right: 0;
-}
-
-.contacts-address-text {
-  max-width: 280px;
-}
-
-.contacts-list {
-  padding-bottom: 0;
-  margin-bottom: 48px;
-}
-
-iframe {
-  width: 100%;
-  height: 412px;
-  max-width: 535px;
-}
-
-}
-
-@media screen and (min-width: 1280px) {
-
-  /* .contacts-container {
-    padding-left: 85px;
+  .contacts-address {
     padding-right: 0;
-  } */
+  }
 
-  .contacts > .container {
-   padding-right: 0;
+  .contacts-address-text {
+    max-width: 280px;
+  }
+
+  .contacts-list {
+    padding-bottom: 0;
+    margin-bottom: 48px;
   }
 
   iframe {
-  width: 100%;
-  height: 412px;
-  max-width: 634px;
+    width: 100%;
+    height: 412px;
+    max-width: 535px;
+  }
 }
-  
+
+/* ----------- DESKTOP ------------- */
+
+@media screen and (min-width: 1280px) {
+
+  .contacts > .container {
+    padding-right: 0;
+  }
+
+  iframe {
+    width: 100%;
+    height: 412px;
+    max-width: 634px;
+  }
 }

@@ -69,9 +69,8 @@
   max-width: 384px;
   height: 64px;
   margin-bottom: 20px;
-  transition: background var(--transition), 
-  border var(--transition),
-  color var(--transition);
+  transition: background var(--transition), border var(--transition),
+    color var(--transition);
 }
 
 .booking-btn:hover,
@@ -96,7 +95,16 @@
   color: var(--accent-color);
 }
 
-.room-page-icon {
+.room-page-link::after {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/cil_arrow-right.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
 }
 
 @media screen and (min-width: 414px) {
