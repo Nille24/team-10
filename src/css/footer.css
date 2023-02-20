@@ -1,22 +1,24 @@
 .footer {
+
   padding-top: 40px;
   padding-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
   background-color: #0e0c07;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
-.footer > .container {
+/* .footer > .container {
   max-width: 351px;
   width: 100%;
-}
+} */
 
 .container-footer {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: center; */
 }
-
 
 
 
@@ -28,12 +30,15 @@
 
 .footer-logo-pol {
   display: flex;
+  margin-right: 85px;
+  margin-left: 29px;
   text-align: start;
   align-items: center;
+
 }
 
 .footer-logo {
-  font-family: Film P3;
+  font-family: Film P3 Bold ;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -84,9 +89,9 @@
     width: 414px;
   }
 
-  .footer-social-media {
+  /* .footer-social-media {
     transform: translateX(240%);
-  }
+  } */
 }
 
 /* tablet */

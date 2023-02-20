@@ -1,6 +1,9 @@
 .header {
   position: absolute;
   z-index: 2;
+
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .logo-header {
@@ -54,36 +57,24 @@
   display: flex;
 }
 
-
 /* ------------------mobil----------------- */
 
 @media screen and (min-width: 414px) {
-  .container {
-    max-width: 414px;
-  }
-
   .logo-header {
     font-size: 36px;
   }
 
   .header-nav-ul {
     font-size: 16px;
-    
   }
 
   .header-nav-li:not(:last-child) {
     margin-right: 20px;
   }
-
 }
 
 /* ---------------------tablet----------------- */
 @media screen and (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-
-
   .logo-header {
     font-size: 40px;
     padding-top: 24px;
@@ -93,7 +84,6 @@
   .header-nav-li:not(:last-child) {
     margin-right: 72px;
   }
-
 
   .header-nav-li {
     gap: 32px;
@@ -125,17 +115,11 @@
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
   }
-
-
 }
 
 /* ------------------------desktop------------------------ */
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1138px;
-  }
-
   .social-ul {
     display: flex;
     color: #f3c653;
@@ -144,13 +128,11 @@
   .header-main {
     display: flex;
     align-items: center;
-  
+    justify-content: center;
   }
 
-
-.header-nav {
+  .header-nav {
     margin-right: 140px;
-
   }
 
   .logo-header {
@@ -164,22 +146,13 @@
   .social-link-header {
     display: flex;
   }
-
 }
 
 /* ----------------Отдельные промежутки----------- */
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  
   .header-nav {
     margin-left: 32px;
     margin-right: 32px;
   }
-  
 }
-
-
-  
-
-
-
