@@ -1,0 +1,224 @@
+.hero {
+    width: 100%;
+    background-color: #474747;
+    padding-top: 126px;
+    padding-bottom: 21px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero_bg_homepage_mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* треба додати фото х2 */
+
+/*@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)),
+            url(../img/);
+    }
+}*/
+.hero>.container {
+    text-align: center;
+}
+
+.hero-title {
+    font-family: 'Film P3 Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 1.07;
+    letter-spacing: 0.3em;
+    color: var(--white-color);
+    margin-bottom: 24px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+    margin-bottom: 40px;
+
+}
+
+.hero-post-text-graph {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 1.12;
+    letter-spacing: 0.05em;
+    color: var(--white-color);
+    margin-bottom: 113px;
+}
+
+.hero-address-tap {
+    position: absolute;
+    top: 64px;
+    right: 15px;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+    max-width: 210px;
+    height: 47px;
+
+}
+
+.hero-address {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-left: 11px;
+}
+
+.hero-address-link::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/location.svg);
+    background-size: contain;
+    display: inline-flex;
+}
+
+.hero-address-text {
+    display: inline-block;
+    text-align: left;
+    max-width: 179px;
+    margin-left: 13px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.01em;
+    color: #E5E5E5;
+}
+
+.hero-btn-teble {
+    min-width: 236px;
+    height: 48px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid var(--white-color);
+    border-radius: 25px;
+    transition: var(--transition);
+    margin-bottom: 24px;
+}
+
+.hero-btn-teble:hover,
+.hero-btn-teble:focus {
+    color: var(--accent-color);
+    background-color: var(--white-color);
+    border-color: var(--accent-color);
+}
+
+.hero-btn-number {
+    min-width: 232px;
+    height: 48px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid var(--white-color);
+    border-radius: 25px;
+    transition: var(--transition);
+    margin-bottom: 58px;
+}
+
+.hero-btn-number:hover,
+.hero-btn-number:focus {
+    color: var(--accent-color);
+    background-color: var(--white-color);
+    border-color: var(--accent-color);
+}
+
+.hero-soc-list {
+    display: flex;
+    gap: 22px;
+}
+
+@media screen and (min-width: 414px) {
+    .container {
+        width: 413px;
+    }
+
+    .hero-title {
+        font-size: 96px;
+    }
+
+    .hero-text {
+        font-size: 16px;
+    }
+
+    .hero-post-text-graph {
+        font-size: 32px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 930px;
+    }
+
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero_bg_homepage_tablet.jpg);
+    }
+
+    .hero-title {
+        font-size: 128px;
+    }
+
+    .hero-address-tap {
+        position: unset;
+        max-width: 285px;
+        height: 56px;
+        margin-right: 137px;
+    }
+
+    .container-btn-address {
+        display: flex;
+    }
+
+    .container-btn {
+        display: flex;
+    }
+
+    .hero-btn-list {
+        display: flex;
+        gap: 40px;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1140px;
+    }
+
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero_bg_homepage_desktop.jpg);
+    }
+
+    .hero-soc-list {
+        display: none;
+    }
+}
