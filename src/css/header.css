@@ -1,0 +1,185 @@
+.header {
+  position: absolute;
+  z-index: 2;
+}
+
+.logo-header {
+  color: #ffffff;
+  font-family: Film P3 Bold, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+  margin-right: auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-nav-ul {
+  color: #f3c653;
+  display: flex;
+
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.02em;
+}
+
+.header-nav-li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.header-nav-li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.social-ul {
+  display: none;
+}
+
+.header-nav-text {
+  display: none;
+}
+
+.link-nav-tel {
+  display: flex;
+}
+
+
+/* ------------------mobil----------------- */
+
+@media screen and (min-width: 414px) {
+  .container {
+    max-width: 414px;
+  }
+
+  .logo-header {
+    font-size: 36px;
+  }
+
+  .header-nav-ul {
+    font-size: 16px;
+    
+  }
+
+  .header-nav-li:not(:last-child) {
+    margin-right: 20px;
+  }
+
+}
+
+/* ---------------------tablet----------------- */
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+
+
+  .logo-header {
+    font-size: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .header-nav-li:not(:last-child) {
+    margin-right: 72px;
+  }
+
+
+  .header-nav-li {
+    gap: 32px;
+  }
+
+  .header-nav-text {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.21;
+    letter-spacing: 0.02em;
+  }
+
+  .header-nav-ul {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.21;
+    letter-spacing: 0.02em;
+  }
+
+  .link-nav-tel {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px;
+    min-width: 144px;
+    height: 40px;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+  }
+
+
+}
+
+/* ------------------------desktop------------------------ */
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1138px;
+  }
+
+  .social-ul {
+    display: flex;
+    color: #f3c653;
+  }
+
+  .header-main {
+    display: flex;
+    align-items: center;
+  
+  }
+
+
+.header-nav {
+    margin-right: 140px;
+
+  }
+
+  .logo-header {
+    margin-right: 125px;
+  }
+
+  .social-li-header:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .social-link-header {
+    display: flex;
+  }
+
+}
+
+/* ----------------Отдельные промежутки----------- */
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  
+  .header-nav {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  
+}
+
+
+  
+
+
+
