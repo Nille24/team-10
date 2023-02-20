@@ -157,9 +157,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-    .container {
-        width: 413px;
-    }
+
 
     .hero-title {
         font-size: 96px;
@@ -181,9 +179,6 @@
 
 
 @media screen and (min-width: 1024px) {
-    .container {
-        width: 930px;
-    }
 
     .hero {
         background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero_bg_homepage_tablet.jpg);
@@ -216,10 +211,7 @@
 
 
 @media screen and (min-width: 1280px) {
-    .container {
-        width: 1140px;
-    }
-
+    
     .hero {
         background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero_bg_homepage_desktop.jpg);
     }

@@ -172,10 +172,10 @@ justify-content: center;
 /* --------- TABLET  --------- */
 
 @media screen and (min-width: 1024px) {
-  .container {
+  /* .container {
     padding-left: 47px;
     padding-right: 47px;
-  }
+  } */
 
   .contacts-container {
     display: flex;
@@ -242,7 +242,6 @@ justify-content: center;
 
 @media screen and (min-width: 1280px) {
   .contacts > .container {
-    padding-right: 0;
   }
 
   iframe {
