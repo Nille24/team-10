@@ -1,4 +1,5 @@
 .hero {
+    position: relative;
     width: 100%;
     background-color: #474747;
     padding-top: 126px;
@@ -64,8 +65,8 @@
 
 .hero-address-tap {
     position: absolute;
-    top: 64px;
-    right: 15px;
+     /* top: 64px; 
+     right: 15px;  */
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
     max-width: 210px;
@@ -155,7 +156,7 @@
     gap: 22px;
 }
 
-@media screen and (min-width: 414px) {
+@media screen and (max-width: 1023px) {
     .container {
         width: 413px;
     }
@@ -171,6 +172,11 @@
     .hero-post-text-graph {
         font-size: 32px;
     }
+
+    .hero-address-tap {
+        position: absolute;
+          top: 64px; 
+         right: 15px;}
 }
 
 
@@ -188,21 +194,21 @@
     }
 
     .hero-address-tap {
-        position: unset;
+        position: absolute;
         max-width: 285px;
-        height: 56px;
-        margin-right: 137px;
+        bottom: 107px;
+        /* left: 47px; */
+
     }
 
-    .container-btn-address {
-        display: flex;
-    }
+
 
     .container-btn {
         display: flex;
     }
 
     .hero-btn-list {
+        margin-left: auto;
         display: flex;
         gap: 40px;
     }
@@ -220,5 +226,13 @@
 
     .hero-soc-list {
         display: none;
+    }
+
+    .hero-address-tap {
+        position: absolute;
+        max-width: 285px;
+        bottom: 77px;
+        left: 47px;
+
     }
 }

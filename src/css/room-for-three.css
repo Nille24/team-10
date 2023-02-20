@@ -1,19 +1,20 @@
 body{
     width: 100vw;
     margin: 0;
+    background-color: #fffdee;
 }
 .conteiner{
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
 }
-.double-room{
-    position: relative;
+.tripl-room{
+    background-color: #F0ECD6;
     padding-top: 32px;
     padding-bottom: 32px;
-    background-color: #fffdee;
+    text-align: end;
 }
-.pre-title {
+.trip-pre-title {
     font-family: 'Times New Roman';
     font-weight: 400;
     font-size: 20px;
@@ -21,8 +22,10 @@ body{
 
     color: #B4B4B4;
     margin-bottom: 8px;
+    text-align: end;
+
 }
-.title {
+.trip-title {
     font-family: 'Film P3';
     font-weight: 700;
     font-size: 40px;
@@ -33,7 +36,7 @@ body{
     margin: 0;
     margin-bottom: 32px;
 }
-.room-luxe-title {
+.room-trip-title {
     font-family: 'Times New Roman';
     font-weight: 700;
     font-size: 24px;
@@ -44,7 +47,7 @@ body{
     margin: 0 ;
     margin-bottom: 12px;
 }
-.room-luxe-description {
+.room-trip-description {
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 12px;
@@ -54,20 +57,110 @@ body{
     color: #7A7A7A;
     max-width: 258px;
     margin-bottom: 32px;
-}
-.room-img{
-    display: flex;
-    justify-content: end;
+    margin-left: auto;
 
+    text-align: start;
+}
+.room-img-trip{
+    display: flex;
+    justify-content: start;
 }
 .img-room{
     background: #DADADA;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
+    
+    max-width: 244px;
+    height: 322px;
 }
 .slide-img{
     margin-top: 32px;
     display: flex;
     gap: 16px;
     position: relative;
+}
+.lux-info{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+
+    background: #000000;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    color: #F3C653;
+
+    padding: 14px 64px;
+
+
+}
+.lux-price{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+
+    background: #000000;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    color: #F3C653;
+    cursor: pointer;
+    padding: 14px 37px;
+}
+.dooble-room-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media screen and (min-width: 414px) {
+    .conteiner{
+        width: 414px;
+    }
+    
+}
+@media screen and (min-width: 1024px) {
+    .conteiner{
+        width: 994px;
+
+    }
+    .trip-pre-title {
+        font-size: 32px;
+        line-height: 1.16;
+    }
+    .trip-title{
+        font-size: 64px;
+        line-height: 1.07;
+        letter-spacing: 0.03em;
+    }
+    .room-trip-title{
+        font-size: 30px;
+        line-height: 1.13;
+    }
+    .room-trip-description{
+        font-size: 16px;
+        max-width: 439px;
+    }
+    .img-room-trip{
+        width: 400px;
+        height: 524px;
+    }
+}       
+@media screen and (min-width: 1280px) {
+    .conteiner{
+        width: 1100px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .room-trip-title{
+        font-size: 36px;
+        line-height: 1.15;
+    }
+    .trip-title{
+        margin-bottom: 72px;
+    }
 }
