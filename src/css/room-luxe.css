@@ -1,0 +1,102 @@
+body{
+    width: 100vw;
+    margin: 0;
+}
+.conteiner{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+.double-room{
+    position: relative;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #fffdee;
+}
+.pre-title {
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.15;
+
+    color: #B4B4B4;
+    margin-bottom: 8px;
+}
+.title {
+    font-family: 'Film P3';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.075;
+    letter-spacing: 0.3em;
+    color: #494848;
+
+    margin: 0;
+    margin-bottom: 32px;
+}
+.room-luxe-title {
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.167;
+    letter-spacing: 0.05em;
+    color: #000000;
+
+    margin: 0 ;
+    margin-bottom: 12px;
+}
+.room-luxe-description {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+
+    color: #7A7A7A;
+    max-width: 258px;
+    margin-bottom: 32px;
+}
+.room-img{
+    display: flex;
+    justify-content: end;
+
+}
+.img-room{
+    background: #DADADA;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+.slide-img{
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+    position: relative;
+}
+.lux-info{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+
+    background: #000000;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    color: #F3C653;
+
+
+}
+.lux-price{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+
+    background: #000000;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    color: #F3C653;
+    cursor: pointer;
+}
