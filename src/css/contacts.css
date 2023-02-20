@@ -8,7 +8,7 @@
 }
 
 .contacts-logo-title {
-  font-family: 'Film P3', sans-serif;
+  font-family: 'Film P3 Bold', sans-serif;
   font-size: 40px;
   line-height: 1.07;
   letter-spacing: 0.3em;
@@ -241,7 +241,6 @@ justify-content: center;
 /* ----------- DESKTOP ------------- */
 
 @media screen and (min-width: 1280px) {
-
   .contacts > .container {
     padding-right: 0;
   }
