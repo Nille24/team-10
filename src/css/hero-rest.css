@@ -32,7 +32,7 @@
     line-height: 1.25;
     letter-spacing: 0.02em;
     color: var(--white-color);
-    margin-bottom: 44px;
+    margin-bottom: 56px;
 
 }
 
@@ -48,8 +48,8 @@
 
 .hero-rest-address-tap {
     position: absolute;
-    top: 64px;
-    right: 15px;
+    /* top: 64px;
+    right: 15px; */
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
     max-width: 210px;
@@ -132,10 +132,10 @@
     border-color: var(--accent-color);
 }
 
-@media screen and (min-width: 414px) {
-    .container {
-        width: 413px;
-    }
+
+
+
+@media screen and (max-width: 1023px) {
 
     .hero-rest-title {
         font-size: 90px;
@@ -144,29 +144,77 @@
     .hero-rest-text-graph {
         font-size: 32px;
     }
-}
-
-
-@media screen and (min-width: 1024px) {
-    .container {
-        width: 930px;
+    .hero-rest-soc-list{
+        display: flex;
+        gap: 20px;
     }
+    .container-btn{
+        margin-bottom: 58px;
+    }
+
+    .hero-rest-item:first-child{
+        margin-bottom: 24px;
+    }
+
+    .hero-rest{
+        padding-bottom: 20px;
+    }
+
+.hero-rest-address-tap{
+       top: 64px;
+     right: 15px;  
+}
+}
+@media screen and (min-width: 1024px) and (max-width:1279px) {
 
     .hero-rest {
         background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero_bg_restaurant_tablet.jpg);
     }
-
-    .hero-rest-address-tap {
-        position: unset;
-        max-width: 285px;
-        height: 56px;
+    .hero-rest-list{
+        display: flex;
+        margin-left: auto;
+        gap: 40px;
     }
+    .hero-rest-address-tap {
+        position: absolute;
+        max-width: 285px;
+        bottom: 65px;
+    }
+
+    .hero-rest-text{
+    }
+
+    .hero-rest-btn{
+        display: flex;
+        margin-left: auto;
+   
+    }
+
+    .hero-rest-soc-list{
+    margin-top: 25px;
+    display: flex;
+    padding-bottom: 15px;
+    gap: 20px;
+    }
+
+    .hero-rest-btn-number:first-child{
+        margin-right: 40px;
+    }
+
+    .container-btn{
+    margin-top: 145px;
+    }
+
+.hero-rest{
+    position: relative;
 }
 
+}
 
 @media screen and (min-width: 1280px) {
-    .container {
-        width: 1140px;
+  
+    .hero-rest{
+        position: relative;
     }
 
     .hero-rest {
@@ -175,5 +223,24 @@
 
     .hero-rest-soc-list {
         display: none;
+    }
+
+    .hero-rest{
+        padding-bottom: 65px;
+    }
+    .container-btn{
+        margin-top: 144px ;
+        
+    }
+
+    .hero-rest-list{
+        display: flex;
+        margin-left: auto;
+        gap: 40px;
+    }
+
+    .hero-rest-address-tap{
+        left: 47px;
+        bottom: 65px;
     }
 }
