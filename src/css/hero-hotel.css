@@ -1,5 +1,6 @@
 
 .hero-hotel {
+    position: relative;
     width: 100%;
     background-color: #474747;
     padding-top: 126px;
@@ -26,6 +27,7 @@
 }
 
 .hero-hotel-text {
+    margin-bottom: 249px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -36,8 +38,8 @@
 }
 .hero-hotel-address-tap {
     position: absolute;
-        top: 64px;
-        right: 15px;
+        /* top: 64px; */
+        /* right: 15px; */
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
     max-width: 210px;
@@ -89,6 +91,15 @@
     transition: var(--transition);
 }
 
+.hero-hotel-btn{
+    
+    margin-bottom: 65px;
+}
+
+.hero-hotel-btn{
+    margin-left: auto;
+}
+
 .hero-hotel-btn-number:hover,
 .hero-hotel-btn-number:focus {
     color: var(--accent-color);
@@ -118,28 +129,58 @@
 }
 
 
-@media screen and (min-width: 414px) {
+@media screen and (max-width:1023px) {
     .container {
-        width: 413px;
+       min-width: 414px;
     }
-    .hero-rest-title {
-        font-size: 90px;
+   
+
+    .hero-hotel-btn-number:first-child{
+        margin-bottom: 24px;
     }
+
+   .hero-hotel-soc-list{
+    display: flex;
+    margin-top: 58px;
+    gap: 20px;
+   }
+   .hero-hotel-address-tap{
+   top: 64px;
+}
 }
 
 
-@media screen and (min-width: 1024px) {
-    .container {
-        width: 930px;
-    }
+@media screen and (min-width: 1024px) and (max-width:1279px) {
+
     .hero-hotel {
         background-image: linear-gradient(rgba(0, 0, 0, 0.65) , rgba(0, 0, 0, 0.65)), url(../img/hero_bg_nomer_hotel_tablet.jpg);
     }
     .hero-hotel-address-tap {
-        position: unset;
+        position: absolute;
         top: unset;
         max-width: 285px;
-        height: 56px;
+    }
+
+    .hero-hotel-text{
+        margin-bottom: 218px;
+    }
+
+    .hero-hotel-btn{
+        display: flex;
+        margin-left: auto;
+        margin-bottom: 25px;
+   
+    }
+
+    .hero-hotel-soc-list{
+    margin-top: 25px;
+    display: flex;
+    padding-bottom: 15px;
+    gap: 20px;
+    }
+
+    .hero-hotel-btn-number:first-child{
+        margin-right: 40px;
     }
 }
 
@@ -153,6 +194,10 @@
     }
     .hero-hotel-soc-list {
         display: none;
+    }
+    .hero-hotel-btn{
+        display: flex;
+        gap: 40px;
     }
 }
 
