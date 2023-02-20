@@ -5,11 +5,12 @@
     padding-bottom: 21px;
     margin-left: auto;
     margin-right: auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65) , rgba(0, 0, 0, 0.65)), url(../img/hero_bg_homepage_mobile.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero_bg_homepage_mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 /* треба додати фото х2 */
 
 /*@media (min-device-pixel-ratio: 2),
@@ -24,6 +25,7 @@
 .hero>.container {
     text-align: center;
 }
+
 .hero-title {
     font-family: 'Film P3 Bold';
     font-style: normal;
@@ -59,6 +61,7 @@
     color: var(--white-color);
     margin-bottom: 113px;
 }
+
 .hero-address-tap {
     position: absolute;
     top: 64px;
@@ -86,6 +89,7 @@
     background-size: contain;
     display: inline-flex;
 }
+
 .hero-address-text {
     display: inline-block;
     text-align: left;
@@ -115,12 +119,14 @@
     transition: var(--transition);
     margin-bottom: 24px;
 }
+
 .hero-btn-teble:hover,
 .hero-btn-teble:focus {
     color: var(--accent-color);
     background-color: var(--white-color);
     border-color: var(--accent-color);
 }
+
 .hero-btn-number {
     min-width: 232px;
     height: 48px;
@@ -136,12 +142,14 @@
     transition: var(--transition);
     margin-bottom: 58px;
 }
+
 .hero-btn-number:hover,
 .hero-btn-number:focus {
     color: var(--accent-color);
     background-color: var(--white-color);
     border-color: var(--accent-color);
 }
+
 .hero-soc-list {
     display: flex;
     gap: 22px;
@@ -151,12 +159,15 @@
     .container {
         width: 413px;
     }
+
     .hero-title {
         font-size: 96px;
     }
+
     .hero-text {
         font-size: 16px;
     }
+
     .hero-post-text-graph {
         font-size: 32px;
     }
@@ -167,24 +178,30 @@
     .container {
         width: 930px;
     }
+
     .hero {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65) , rgba(0, 0, 0, 0.65)), url(../img/hero_bg_homepage_tablet.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero_bg_homepage_tablet.jpg);
     }
+
     .hero-title {
-       font-size: 128px;
+        font-size: 128px;
     }
+
     .hero-address-tap {
         position: unset;
         max-width: 285px;
         height: 56px;
         margin-right: 137px;
     }
+
     .container-btn-address {
         display: flex;
     }
+
     .container-btn {
         display: flex;
     }
+
     .hero-btn-list {
         display: flex;
         gap: 40px;
@@ -196,9 +213,11 @@
     .container {
         width: 1140px;
     }
+
     .hero {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65) , rgba(0, 0, 0, 0.65)), url(../img/hero_bg_homepage_desktop.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero_bg_homepage_desktop.jpg);
     }
+
     .hero-soc-list {
         display: none;
     }

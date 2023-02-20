@@ -4,7 +4,7 @@
     padding-top: 126px;
     margin-left: auto;
     margin-right: auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65) , rgba(0, 0, 0, 0.65)), url(../img/hero_bg_restaurant_mobile.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero_bg_restaurant_mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -22,7 +22,7 @@
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-}     
+}
 
 .hero-rest-text {
     font-family: 'Montserrat';
@@ -33,7 +33,7 @@
     letter-spacing: 0.02em;
     color: var(--white-color);
     margin-bottom: 44px;
-    
+
 }
 
 .hero-rest-text-graph {
@@ -45,6 +45,7 @@
     letter-spacing: 0.05em;
     color: var(--white-color);
 }
+
 .hero-rest-address-tap {
     position: absolute;
     top: 64px;
@@ -53,7 +54,7 @@
     border-radius: 2px;
     max-width: 210px;
     height: 47px;
-    
+
 }
 
 .hero-rest-address {
@@ -101,12 +102,14 @@
     border-radius: 25px;
     transition: var(--transition);
 }
+
 .hero-rest-btn-teble:hover,
 .hero-rest-btn-teble:focus {
     color: var(--accent-color);
     background-color: var(--white-color);
     border-color: var(--accent-color);
 }
+
 .hero-rest-btn-menu {
     min-width: 232px;
     height: 48px;
@@ -121,6 +124,7 @@
     border-radius: 25px;
     transition: var(--transition);
 }
+
 .hero-rest-btn-menu:hover,
 .hero-rest-btn-menu:focus {
     color: var(--accent-color);
@@ -132,9 +136,11 @@
     .container {
         width: 413px;
     }
+
     .hero-rest-title {
         font-size: 90px;
     }
+
     .hero-rest-text-graph {
         font-size: 32px;
     }
@@ -145,12 +151,13 @@
     .container {
         width: 930px;
     }
+
     .hero-rest {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65) , rgba(0, 0, 0, 0.65)), url(../img/hero_bg_restaurant_tablet.jpg);
-        }
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero_bg_restaurant_tablet.jpg);
+    }
 
     .hero-rest-address-tap {
-        position:unset;
+        position: unset;
         max-width: 285px;
         height: 56px;
     }
@@ -161,8 +168,9 @@
     .container {
         width: 1140px;
     }
+
     .hero-rest {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) , rgba(0, 0, 0, 0.65)), url(../img/hero_bg_restaurant_desktop.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero_bg_restaurant_desktop.jpg);
     }
 
     .hero-rest-soc-list {
