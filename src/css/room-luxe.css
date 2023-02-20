@@ -7,7 +7,7 @@ body{
     margin-right: auto;
     padding: 0 15px;
 }
-.double-room{
+.room-lux{
     position: relative;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -71,3 +71,50 @@ body{
     gap: 16px;
     position: relative;
 }
+@media screen and (min-width: 414px) {
+    .conteiner{
+        width: 414px;
+    }
+    
+}
+@media screen and (min-width: 1024px) {
+    .conteiner{
+        width: 994px;
+
+    }
+    .pre-title {
+        font-size: 32px;
+        line-height: 1.16;
+    }
+    .title{
+        font-size: 64px;
+        line-height: 1.07;
+        letter-spacing: 0.03em;
+    }
+    .room-luxe-title{
+        font-size: 30px;
+        line-height: 1.13;
+    }
+    .room-luxe-description{
+        font-size: 16px;
+        max-width: 439px;
+    }
+    .img-room{
+        width: 400px;
+        height: 524px;
+    }
+}    
+@media screen and (min-width: 1280px) {
+    .conteiner{
+        width: 1100px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .room-luxe-title{
+        font-size: 36px;
+        line-height: 1.15;
+    }
+    .title{
+        margin-bottom: 72px;
+    }
+}   

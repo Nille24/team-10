@@ -1,16 +1,35 @@
-
-<section class="double-room">
+<section class="room-lux">
     <div class="conteiner">
         <p class="pre-title">Amet minim mollit non</p>
         <h3 class="title">MIMIHO</h3>
         <h4 class="room-luxe-title">ДВОМІСНИЙ НОМЕР люкс</h4>
         <p class="room-luxe-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
         <div class="room-img">
-            <img class="img-room" src="../img/room/room-luxe-1x.jpeg" alt="room-luxe">
+            <picture class="img-room" >
+                <source 
+                    srcset="./img/room/room-luxe-1x-desktop.jpeg 1x,
+                            ./img/room/room-luxe-2x-desktop.jpeg 2x"
+                    media="(min-width: 1280px)" />
+                <source 
+                    srcset="./img/room/room-lux1x.jpeg 1x,
+                            ./img/room/room-lux2x-tablet.jpeg 2x"
+                    media="(min-width: 1024px)" />
+                <source 
+                    srcset="./img/room/room-lux-1x-mobile.jpeg 1x,
+                            ./img/room/room-lux-2x-mobile.jpeg 2x"/>
+            </picture>
         </div>
         <div class="slide-img">
-            <img src="../img/room/room-luxe-slide1-1x.jpeg" alt="window">
+            <img src="../img/room/slide-2-1x-mobile.jpeg" alt="window">
             <img src="../img/room/room-luxe-slide2-1x.jpeg" alt="arrangement-pf-bathroom-elements">
+        </div>
+        <div class="dooble-room-button">
+            <button class="lux-info">
+                Детальніше
+            </button>
+            <button class="lux-price">
+                Переглянути ціни
+            </button>
         </div>
     </div>
 </section>
