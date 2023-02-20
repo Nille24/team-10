@@ -7,7 +7,7 @@
 }
 
 .logo-header {
-  color: #ffffff;
+  color: var(--white-color);
   font-family: Film P3 Bold, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -24,7 +24,7 @@
 }
 
 .header-nav-ul {
-  color: #f3c653;
+  color: var(--accent-color);
   display: flex;
 
   font-family: Montserrat, sans-serif;
@@ -91,7 +91,7 @@
 
   .header-nav-text {
     display: inline-block;
-    color: #ffffff;
+    color: var(--white-color);
     font-weight: 500;
     font-size: 13px;
     line-height: 1.21;
@@ -122,7 +122,7 @@
 @media screen and (min-width: 1280px) {
   .social-ul {
     display: flex;
-    color: #f3c653;
+    color: var(--accent-color);
   }
 
   .header-main {
