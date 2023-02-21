@@ -17,7 +17,7 @@
     />
     
     <script type="module" crossorigin src="/team-10/assets/modal-7ae64c72.js"></script>
-    <link rel="stylesheet" href="/team-10/assets/modal-f9d1daf4.css">
+    <link rel="stylesheet" href="/team-10/assets/modal-615979b6.css">
   </head>
   <body>
     <!-- Header -->
@@ -99,12 +99,12 @@
       <div class="container-btn">
         <ul class="hero-btn-list">
           <li class="hero-btn-item">
-            <button class="hero-btn-teble" type="button">
+            <button class="hero-btn-teble js-open-modal" type="button" data-modal="1">
               Забронювати столик
             </button>
           </li>
           <li class="hero-btn-item">
-            <button class="hero-btn-number" type="button">
+            <button class="hero-btn-number js-open-modal" type="button" data-modal="2">
               Забронювати номер
             </button>
           </li>
@@ -160,40 +160,69 @@
     <li class="details-restaurant-item"><img src="#" alt="" width="274" height="270"></li>
 </ul> -->
 <div class="set">
-<button type="button" class="book-a-table" href="">Забронювати столик</button>
+    <button type="button" class="booking-restoraunt-btn js-open-modal" data-modal="1">
+        Забронювати столик
+      </button>
 <a class="restaurant-link" href="../restaurant-page.html">Переглянути меню</a>
 </div>
 </div>
 </section>
     <!-- About our hotel-->
     <section class="about-our-hotel">
-<div class="container">
-<h2 class="details visually-hidden">HOTEL</h2>
-<p class="pre-caption-hotel">Amet minim mollit non</p>
-<h3 class="caption-hotel">MIMIHO</h3>
-<p class="paragraph-hotel">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-<picture>
-    <source srcset="
-    ../img/homepage_hotelrooms_1_mobile.jpg 1x ,
-    ../img/room-hoom-mob2x.jpg 2x" 
-    media="(min-width: 320px)"
+  <div class="container">
+    <h2 class="details visually-hidden">HOTEL</h2>
+    <p class="pre-caption-hotel">Amet minim mollit non</p>
+    <h3 class="caption-hotel">MIMIHO</h3>
+    <p class="paragraph-hotel">
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+      Velit officia consequat duis enim velit mollit. Exercitation veniam
+      consequat sunt nostrud amet.
+    </p>
+    <picture>
+      <source
+        srcset="
+          ../img/homepage_hotelrooms_1_mobile.jpg 1x,
+          ../img/room-hoom-mob2x.jpg              2x
+        "
+        media="(min-width: 320px)"
+      />
+      <source
+        srcset="
+          ../img/homepage_hotelrooms_1_tablet.jpg 1x,
+          ../img/room-hoom-tablet2x.jpg           2x
+        "
+        media="(min-width: 1024px)"
+      />
+      <source
+        srcset="
+          ../img/homepage_hotelrooms_1_dekstop.jpg 1x,
+          ../img/room-hoom-dek2x.jpg               2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <img
+        class="hotel-one"
+        src="../img/homepage_hotelrooms_1_mobile.jpg"
+        alt="room"
+        width="460"
+        height="574"
+      />
+    </picture>
+    <p class="gold-paragraph-hotel">
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+      Velit officia consequat duis enim velit mollit. Exercitation veniam
+      consequat sunt nostrud amet.
+    </p>
+    <img
+      class="hotel-two"
+      src="../img/homepage_hotelrooms_2_mobile.jpg"
+      alt="registration"
+      width="460"
+      height="574"
     />
-    <source srcset="
-    ../img/homepage_hotelrooms_1_tablet.jpg 1x ,
-    ../img/room-hoom-tablet2x.jpg 2x" 
-    media="(min-width: 1024px)"
-    />
-    <source srcset="
-    ../img/homepage_hotelrooms_1_dekstop.jpg 1x ,
-    ../img/room-hoom-dek2x.jpg 2x" 
-    media="(min-width: 1280px)"
-    />
-<img class="hotel-one" src="../img/homepage_hotelrooms_1_mobile.jpg" alt="room" width="460" height="574">
-</picture>  
-<p class="gold-paragraph-hotel">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-<img class="hotel-two" src="../img/homepage_hotelrooms_2_mobile.jpg" alt="registration" width="460" height="574">
-</div>
+  </div>
 </section>
+
     <!-- Details of our hotel-->
     <section class="details-of-our-hotel">
 <div class="container">
