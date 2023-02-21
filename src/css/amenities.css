@@ -34,9 +34,6 @@
   padding-bottom: 32px;
 }
 
-.room-page-item {
-}
-
 .room-page-undertitle {
   font-family: Montserrat, sans-serif;
   font-style: normal;
@@ -149,10 +146,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    /* padding-left: 85px;
-    padding-right: 199px; */
-  }
 
   .text-wrap {
     column-gap: 159px;
