@@ -1,0 +1,146 @@
+.kitchen {
+    padding-top: 16px;
+    padding-bottom: 20px;
+    background-color: #FFFDEE;
+}
+
+.kitchen-title {
+font-family: 'Times New Roman', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.15;
+color: #B4B4B4;
+margin-bottom: 12px;
+text-align: start;
+}
+
+.kitchen-name {
+font-family: 'Film P3 Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 1.07;
+letter-spacing: 0.3em;
+color: #494848;
+margin-bottom: 12px;
+text-align: start;
+}
+
+.kitchen-text {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.25;
+letter-spacing: 0.02em;
+color: var(--text-grey);
+text-align: start;
+}
+
+.kitchen-text.top {
+    margin-bottom: 28px;
+    max-width: 258px;
+    min-height: 76px;
+}
+
+.kitchen-text.btm {
+margin-left: 20px;
+color: var(--brown-color);
+max-width: 163px;
+}
+
+.kitchen-img {
+box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+border-radius: 2px;
+}
+
+.kitchen-img.top {
+    margin-left: 140px;
+}
+
+.kitchen-item-wrap.btm {
+display: flex;
+}
+
+.btm {
+    flex-direction: row-reverse;
+    align-items: center;
+} 
+
+.kitchen-item:not(:last-child) {
+margin-bottom: 32px;
+}
+
+@media screen and (min-width: 414px) {
+
+   
+}
+
+@media screen and (min-width: 1024px) {
+
+    .kitchen {
+        padding-top: 120px;
+        padding-bottom: 32px;
+    }
+
+    .kitchen-list {
+        position: relative;
+    }
+
+    .kitchen-title {
+        font-size: 32px;
+        margin-bottom: 4px;
+    }
+
+    .kitchen-name {
+        font-size: 64px;
+        margin-bottom: 24px;
+    }
+
+    .kitchen-text.top {
+        font-size: 12px;
+        min-width: 439px;
+    }
+
+    .kitchen-text.btm {
+        max-width: 312px;
+    }
+
+    .kitchen-img.top {
+        width: 400px;
+        margin-left: 26px;
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform: translatey(-15%);
+    }
+
+    .kitchen-img.btm {
+        width: 350px;
+    }
+
+    .kitchen-item-wrap.top {
+        display: flex;
+    }
+
+    .kitchen-item-wrap.btm {
+        justify-content: flex-end;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    .kitchen-text {
+        max-width: 518px;
+    }
+
+    .kitchen-img.top {
+        width: 460px;
+    }
+
+    .kitchen-img.btm {
+        width: 460px;
+    }
+}

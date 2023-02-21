@@ -113,7 +113,7 @@
   display: flex;
   align-items: center;
   column-gap: 12px;
-  justify-content: center;
+justify-content: center;
 }
 
 .contacts-hotel-tel {
@@ -172,10 +172,10 @@
 /* --------- TABLET  --------- */
 
 @media screen and (min-width: 1024px) {
-  .container {
+  /* .container {
     padding-left: 47px;
     padding-right: 47px;
-  }
+  } */
 
   .contacts-container {
     display: flex;
@@ -242,7 +242,6 @@
 
 @media screen and (min-width: 1280px) {
   .contacts > .container {
-    padding-right: 0;
   }
 
   iframe {
