@@ -103,6 +103,7 @@
     transition: var(--transition);
 }
 
+
 .hero-rest-btn-teble:hover,
 .hero-rest-btn-teble:focus {
     color: var(--accent-color);
@@ -125,6 +126,28 @@
     transition: var(--transition);
 }
 
+.link-menu{
+    margin:auto ;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 236px;
+    height: 48px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid var(--white-color);
+    border-radius: 25px;
+    transition: var(--transition);
+
+}
+
+.link-menu:hover,
+.link-menu:hover,
 .hero-rest-btn-menu:hover,
 .hero-rest-btn-menu:focus {
     color: var(--accent-color);
