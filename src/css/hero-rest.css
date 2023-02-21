@@ -142,7 +142,8 @@
     border: 2px solid var(--white-color);
     border-radius: 25px;
     transition: var(--transition);
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .link-menu:hover,
