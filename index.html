@@ -17,7 +17,7 @@
     />
     
     <script type="module" crossorigin src="/team-10/assets/modal-7ae64c72.js"></script>
-    <link rel="stylesheet" href="/team-10/assets/modal-aea51643.css">
+    <link rel="stylesheet" href="/team-10/assets/modal-f9d1daf4.css">
   </head>
   <body>
     <!-- Header -->
@@ -347,7 +347,96 @@
   </form>
 </div>
    <!-- Book Room Modal window -->
-           
+   <div class="overlay js-overlay-modal"></div>
+<!-- js-overlay-modal data-modal="2"  -->
+<div class="modal" data-modal="2">   
+    <svg
+      class="modal__cross js-modal-close"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M20.5715 2.57129L2.57153 20.5713"
+        stroke="black"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M2.57153 2.57129L20.5715 20.5713"
+        stroke="black"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+    <strong class="modal__title">ЗАБРОНЮВАТИ НОМЕР</strong>
+    <form class="reserv-form" name="reserv_room_form">
+      <div class="room-grup">
+        <div class="input-room-grup">
+          <label class="form-label">
+            <input
+              type="text"
+              class="input"
+              name="user_name"
+              placeholder="Ваше ім’я"
+              required
+            />
+            <span class="input-text">На кого забронювати столик?</span>
+          </label>
+          <label class="form-label">
+            <input
+              type="tel"
+              class="input"
+              name="user_phone"
+              placeholder="+38 (___) ___-__-__"
+              required
+              minlength="12"
+              maxlength="13"
+            />
+            <span class="input-text">Номер телефону</span>
+          </label>
+        </div>
+        <div class="room-select-ona">
+          <label class="form-label">
+            <div class="select-wrapper">
+              <select name="room" class="select">
+                <option value="1">Двомісний люкс</option>
+                <option value="2" selected>Двомісний номер</option>
+                <option value="3">Трьохмісний номер</option>
+              </select>
+            </div>
+            <span class="input-text">Категорія номеру</span>
+          </label>
+        </div>
+        <div class="room-select-two">
+          <label class="form-label">
+            <div class="select-wrapper">
+              <select name="date" class="select">
+              <option value="today">Сьогодні</option>
+              <option value="tomorrow">Завтра</option>
+            </select>
+            </div>              
+            <span class="input-text">Дата заїзду</span>
+          </label>
+          <label class="form-label">
+            <div class="select-wrapper">
+              <select name="date" class="select">
+              <option value="today">Сьогодні</option>
+              <option value="tomorrow">Завтра</option>
+            </select>
+            </div>              
+            <span class="input-text">Дата виїзду</span>
+          </label>
+        </div>
+      </div>
+      <button class="reserved" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+    </form>
+  </div>
+        
     <!-- Footer -->
     <footer class="footer">
   <div class="container footer-container">
