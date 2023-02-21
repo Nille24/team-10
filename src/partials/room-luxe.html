@@ -7,30 +7,43 @@
         <div class="room-img">
             <picture class="img-room" >
                 <source 
-                    srcset="./img/room/room-luxe-1x-desktop.jpeg 1x,
-                            ./img/room/room-luxe-2x-desktop.jpeg 2x"
+                    srcset="./src/img/hotel_hotelrooms_desktop.jpg,
+                            ./src/img/room-luxe-2x-desktop.jpeg 2x"
+                    type="image/jpeg"
                     media="(min-width: 1280px)" />
                 <source 
-                    srcset="./img/room/room-lux1x.jpeg 1x,
-                            ./img/room/room-lux2x-tablet.jpeg 2x"
+                    srcset="./src/img/room-lux1x.jpeg 1x,
+                            ./src/img/room-lux2x-tablet.jpeg 2x"
+                    type="image/jpeg"
                     media="(min-width: 1024px)" />
                 <source 
-                    srcset="./img/room/room-lux-1x-mobile.jpeg 1x,
-                            ./img/room/room-lux-2x-mobile.jpeg 2x"/>
+                    srcset="./src/img/room-lux-1x-mobile.jpeg 1x,
+                            ./src/img/room-lux-2x-mobile.jpeg 2x"
+                    type="image/jpeg"
+                    media="(min-width:320px)"/>
+                <img href="./img/hotel_hotelrooms_desktop.jpg">
             </picture>
-            <img src="../img/room/room-lux-1x-mobile.jpeg" alt="room-lux">
         </div>
         <div class="slide-img">
-            <img src="../img/room/slide-2-1x-mobile.jpeg" alt="window">
-            <img src="../img/room/room-luxe-slide2-1x.jpeg" alt="arrangement-pf-bathroom-elements">
+            <img src="../img/slide-1-1x-tablet.jpeg" alt="arrangement-pf-bathroom-elements">
+            <img src="../img/slide-2-1x-mobile.jpeg" alt="window">
         </div>
+        <div class="slide-icons">
+            <svg class="slide-icon">
+                <use href="../img/symbol-defs.svg#icon-arrow-left"></use>
+            </svg>
+            <svg class="slide-icon">
+                <use href="../img/symbol-defs.svg#icon-arrow-right"></use>
+            </svg>
+        </div>
+    </div>
         <div class="dooble-room-button">
-            <button class="lux-info">
+            <a rel="details" href="../room-page.html" class="lux-info">
                 Детальніше
-            </button>
+            </a>
             <button class="lux-price">
                 Переглянути ціни
             </button>
         </div>
-    </div>
+    
 </section>
