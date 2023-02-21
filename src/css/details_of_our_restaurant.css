@@ -110,7 +110,6 @@ line-height: 1.25;
 letter-spacing: 0.02em;
 color: var(--accent-color); 
 padding: 14px 31px;
-height: 48px;
 transition: border var(--transition) , bakcground var(--transition) ;
 }
 
