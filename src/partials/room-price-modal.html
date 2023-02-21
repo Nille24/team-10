@@ -1,0 +1,58 @@
+<div class="overlay js-overlay-modal"></div>
+
+<div class="modal" data-modal="3">
+    <!--   Svg иконка для закрытия окна  -->
+    <svg
+    class="modal__cross js-modal-close"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M20.5715 2.57129L2.57153 20.5713"
+      stroke="black"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M2.57153 2.57129L20.5715 20.5713"
+      stroke="black"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+    <strong class="modal__title">ЦІНИ НА НОМЕР</strong>
+    <div class="room_type">
+      <p class="price_text">Двомісний люкс</p>
+      <span class="price_span">Категорія номеру</span>
+    </div>
+    
+    <form class="price-form" name="price_form">
+      <div class="price_grup">
+        <label class="form-label">
+        <div class="select-wrapper">
+          <select type="number" name="number" class="select" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+        </div>         
+        <span class="input-text">Кількість ночей</span>
+      </label>
+      <label class="form-label">
+        <input
+          type="number"
+          class="input"
+          name="user_name"
+          placeholder="1000"            
+        />
+        <span class="input-text">грн</span>
+      </label>
+      </div>
+      
+      <button class="reserved" type="submit">ЗАБРОНЮВАТИ НОМЕР</button>
+    </form>
+  </div>

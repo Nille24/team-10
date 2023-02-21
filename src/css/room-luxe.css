@@ -61,15 +61,37 @@ body{
 
 }
 .img-room{
+    position: absolute;
     background: #DADADA;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
+     
+    width: 244px;
+    height: 322px;
 }
 .slide-img{
     margin-top: 32px;
+    margin-bottom: 20px;
     display: flex;
     gap: 16px;
     position: relative;
+}
+.slide-icons{
+    display: flex;
+    gap: 34px;
+    margin-bottom: 20px;
+}
+.slide-icon{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+.dooble-room-button{
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 @media screen and (min-width: 414px) {
     .conteiner{
@@ -89,7 +111,7 @@ body{
     .title{
         font-size: 64px;
         line-height: 1.07;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.3em;
     }
     .room-luxe-title{
         font-size: 30px;
@@ -98,10 +120,24 @@ body{
     .room-luxe-description{
         font-size: 16px;
         max-width: 439px;
+        margin-bottom: 174px;
     }
     .img-room{
         width: 400px;
         height: 524px;
+        position: absolute;
+        top: -32px;
+        right: 112px;
+    }
+    .dooble-room-button{
+        position: absolute;
+        bottom: 145px;
+        right: 47px;
+    }
+    .slide-icons{
+        width: 423px;
+        justify-content: end;
+        margin: 0;
     }
 }    
 @media screen and (min-width: 1280px) {
@@ -116,5 +152,9 @@ body{
     }
     .title{
         margin-bottom: 72px;
+    }
+    .dooble-room-button{
+        bottom: 182px;
+        right: 85px;
     }
 }   

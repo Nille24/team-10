@@ -5,21 +5,31 @@
         <h4 class="room-trip-title">ТРЬОХМІСНИЙ НОМЕР</h4>
         <p class="room-trip-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
         <div class="room-img-trip">
-            <img
-        
-            class="img-room" src="./img/hotel-img/img/hotel-img/room-lux-1x-mobile.jpeg" alt="room-luxe">
+            <picture class="img-room-trip">
+                <source srcset="../img/hotel_hotelrooms_tablet.jpg" media="(mix-width: 1024px)">
+                <source srcset="../img/hotel_hotelrooms_desktop.jpg" media="(min-width: 1280px)">
+                <img src="../img/hotel_hotelrooms_mobile.jpg" alt="hotel room" width="400px" height="525px">
+              </picture>
         </div>
-        <div class="slide-img">
-            <img src="./img/hotel-img/slide-1-1x-tablet.jpeg" alt="window">
-            <img src="./img/room/room-luxe-slide2-1x.jpeg" alt="arrangement-pf-bathroom-elements">
+        <div class="slide-img-trip">
+            <img src="../img/slide-1-1x-tablet.jpeg" alt="arrangement-pf-bathroom-elements">
+            <img src="../img/slide-2-1x-mobile.jpeg" alt="window">
         </div>
-        <div class="dooble-room-button">
-            <button class="lux-info">
+        <div class="slide-icons-tripl">
+            <svg class="slide-icon">
+                <use href="../img/symbol-defs.svg#icon-arrow-left"></use>
+            </svg>
+            <svg class="slide-icon">
+                <use href="../img/symbol-defs.svg#icon-arrow-right"></use>
+            </svg>
+        </div>
+    </div>
+        <div class="tripl-room-button">
+            <a rel="details" href="../page-room-third.html" class="lux-info">
                 Детальніше
-            </button>
-            <button class="lux-price">
+            </a>
+            <button class="lux-price js-open-modal" data-modal="3">
                 Переглянути ціни
             </button>
         </div>
-    </div>
 </section>
