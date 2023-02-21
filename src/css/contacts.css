@@ -8,7 +8,7 @@
 }
 
 .contacts-logo-title {
-  font-family: 'Film P3 Bold', sans-serif;
+  font-family: Film P3 Bold, sans-serif;
   font-size: 40px;
   line-height: 1.07;
   letter-spacing: 0.3em;
@@ -18,7 +18,7 @@
 }
 
 .contacts-under-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.25;
@@ -42,7 +42,7 @@
 }
 
 .contacts-text-rest {
-  font-family: 'Montserrat';
+  font-family: Montserrat, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -66,7 +66,7 @@
 }
 
 .contacts-rest-tel {
-  font-family: 'Montserrat';
+  font-family: Montserrat, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -91,7 +91,7 @@
 }
 
 .contacts-text-hotel {
-  font-family: 'Montserrat';
+  font-family: Montserrat, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -122,7 +122,7 @@ justify-content: center;
 }
 
 .contacts-hotel-link {
-  font-family: 'Montserrat';
+  font-family: Montserrat, sans-serif;
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 0.02em;
@@ -160,7 +160,7 @@ justify-content: center;
 .contacts-address-text {
   text-align: left;
   max-width: 183px;
-  font-family: 'Montserrat';
+  font-family: Montserrat, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
