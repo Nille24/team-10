@@ -1,36 +1,74 @@
 .about-our-hotel{
+    padding-top: 18px;
+    padding-bottom: 72px;
     background-color: #FFFDEE;
 }
 
+.about-our-hotel> .container{
+    text-align: unset;
+}
 
 
-.hero-name-hotel{
+.pre-caption-hotel{
+position: relative;
+left: 194px;
 font-family: 'Times New Roman';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
-line-height: 0.87;
+line-height: 1.15;
 color: var(--second-grey);
+width: 190px;
+height: 23px;
+margin-bottom: 6px;
 }
 
 .caption-hotel{
-font-family: 'Film P3';
+position: relative;
+left: 257px;
+font-family: 'Film P3 Bold';
 font-style: normal;
 font-weight: 700;
 font-size: 40px;
-line-height: 0.87;
+line-height: 1.07;
 letter-spacing: 0.3em;
 color: #494848;
+width: 127px;
+height: 43px;
+margin-bottom: 6px;
 }
 
 .paragraph-hotel{
+position: relative;
+left: 143px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
 font-size: 12px;
-line-height: 0.8;
+line-height: 1.25;
 letter-spacing: 0.02em;
 color: var(--text-grey);
+max-width: 258px;
+height: 76px;
+margin-bottom: 28px;
+}
+
+.hotel-one{
+background-color: var(--third-grey);
+box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+border-radius: 2px;
+margin-bottom: 32px;
+}
+
+
+
+.hotel-two{
+    background-color: var(--third-grey);
+    box-shadow: 2px 2px 60px 2px rgb(0 0 0 / 25%);
+    border-radius: 2px;
+    position: relative;
+    left: 184px;
+    top: -200px;
 }
 
 .gold-paragraph-hotel{
@@ -38,7 +76,173 @@ font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
 font-size: 12px;
-line-height: 0.8;
+line-height: 1.25;
 letter-spacing: 0.02em;
 color: var(--brown-color);
+width: 163px;
+height: 120px;
+margin-top: 102px;
+
 }
+
+
+/* ------------------mobil----------------- */
+
+@media screen and (min-width: 414px) {
+    .container {
+      max-width: 384px;
+    }
+  }
+  
+  /* ---------------------tablet----------------- */
+  @media screen and (min-width: 1024px) {
+    .container {
+      max-width: 994px;
+    }
+
+    .about-our-hotel> .container{
+        text-align: unset;
+        height: 1238px;
+    }
+
+    .about-our-hotel{
+        padding-top: 120px;
+        padding-bottom: 96px;
+    }
+  
+
+    .pre-caption-hotel{
+        width: 304px;
+        height: 37px;
+        font-size: 32px;
+        line-height: 1.15;
+        position: relative;
+        left: 655px;
+        margin-bottom: 4px;
+    }
+
+    .caption-hotel{
+        margin-bottom: 24px;
+        width: 202px;
+        height: 69px;
+        font-size: 64px;
+        line-height: 1.08;
+        position: relative;
+        left: 758px;
+    }
+        
+        .paragraph-hotel{
+            position: relative;
+            left: 543px;
+            min-width: 439px;
+            height: 80px;
+            font-size: 16px;
+            line-height: 1.25;
+            margin-bottom: 142px;
+
+        }
+
+        .hotel-one{
+            position: relative;
+            left: 97px;
+            top: -502px;
+            box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+            margin-bottom: unset;
+            }
+
+
+            .hotel-two{   
+                 position: relative;
+                 left: 612px;
+                 top: -835px;
+                box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+            }
+
+            .gold-paragraph-hotel{
+                font-size: 16px;
+                line-height: 1.25;
+                margin-top: 172px;
+                position: relative;
+                min-width: 312px;
+                height: 122px;
+                left: 237px;
+                top: -500px;
+            }
+                
+
+  }
+  
+  /* ------------------------desktop------------------------ */
+  
+  @media screen and (min-width: 1280px) {
+    .container {
+      max-width: 1250px;
+    }
+
+    .about-our-hotel> .container{
+        text-align: unset;
+        height: 1275px;
+    }
+
+    .about-our-hotel{
+        padding: 120px 0px;
+    }
+
+
+    .pre-caption-hotel{
+        position: relative;
+        left: 891px;
+        width: 304px;
+        height: 37px;
+        font-size: 32px;
+        line-height: 1.15;
+    }
+
+    .caption-hotel{
+        position: relative;
+        left: 993px;
+        width: 202px;
+        height: 69px;
+        font-size: 64px;
+        line-height: 1.08;
+    }
+        
+        .paragraph-hotel{
+            position: relative;
+            left: 707px;
+            margin-bottom: 162px;
+            min-width: 488px;
+            height: 88px;
+            font-size: 16px;
+            line-height: 1.25;
+
+        }
+
+
+
+
+    .hotel-one{
+        position: relative;
+        left: 165px;
+        top: -530px;
+        box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+        }
+
+
+        .hotel-two{
+            position: relative;
+            left: 735px;
+            top: -884px;
+            box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+        }
+  
+        .gold-paragraph-hotel{
+            font-size: 16px;
+            line-height: 1.25;
+            min-width: 312px;
+            height: 122px;
+            position: relative;
+            left: 379px;
+            top: -530px;
+        }
+  }
