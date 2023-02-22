@@ -10,6 +10,17 @@
 
 
 
+.second-rest{
+    display: flex;
+    align-items: center;
+}
+
+.container-rest{
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+}
+
+
 .pre-caption-rest{
 font-family: 'Times New Roman';
 font-style: normal;
@@ -45,24 +56,23 @@ letter-spacing: 0.02em;
 color: var(--text-grey);
 max-width: 258px;
 height: 76px;
-margin-bottom: 28px;
 }
 
 .rest-one{
-position: relative;
 width: 244px;
 height: 322px;
-left: 140px;
 background-color: var(--third-grey);
 box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 border-radius: 2px;
+position: relative;
+left: 140px;
 margin-bottom: 32px;
+
 }
 
 
 
 .rest-two{
-position: relative;
 width: 200px;
 height: 278px;
 background-color: var(--third-grey);
@@ -80,9 +90,7 @@ border-radius: 2px;
     color: var(--brown-color);
     width: 163px;
     height: 120px;
-    position: relative;
-    left: 220px;
-    top: -190px;
+    margin-left: 20px;
 }
 
 
@@ -110,7 +118,29 @@ border-radius: 2px;
         height: 1238px;
     }
 
+    .first-rest{    
+        display: flex;
+        position: relative;
+        left: 32px;
+        flex-wrap: nowrap;
+    }
 
+    .second-rest{
+        align-items: center;
+        position: relative;
+        top: -166px;
+        left: 32px;
+    }
+
+    
+
+
+    .container-rest{
+        margin-right: 26px;
+        margin-bottom: unset;
+        height: 214px;
+        margin-bottom: 142px;
+    }
   
     .pre-caption-rest{
         width: 304px;
@@ -118,8 +148,6 @@ border-radius: 2px;
         font-size: 32px;
         line-height: 1.15;
         margin-bottom: 4px;
-        position: relative;
-            left: 32px;
     }
 
     .caption-restaurant{
@@ -128,8 +156,6 @@ border-radius: 2px;
         height: 69px;
         font-size: 64px;
         line-height: 1.08;
-        position: relative;
-            left: 32px;
     }
         
         .paragraph-restaurant{
@@ -137,18 +163,15 @@ border-radius: 2px;
             height: 80px;
             font-size: 16px;
             line-height: 1.25;
-            margin-bottom: 142px;
-            position: relative;
-            left: 32px;
         }
 
         .rest-one{
-            position: relative;
             width: 400px;
             height: 524px;
-            left: 512px;
-            top: -500px;
             box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+            position: relative;
+            top: -152px;
+            left: unset;
             margin-bottom: unset;
             }
 
@@ -156,20 +179,15 @@ border-radius: 2px;
             .rest-two{
                 width: 350px;
                 height: 500px;
-                top: -524px;
                 box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
-                position: relative;
-                left: 32px;
             }
 
             .gold-paragraph-rest{
-                position: relative;
                 width: 312px;
                 height: 122px;
                 font-size: 16px;
                 line-height: 1.25;
-                top: -820px;
-                left: 445px;
+                margin-left: 48px;
             }
   }
   
@@ -190,40 +208,40 @@ border-radius: 2px;
         height: 1275px;
     }
 
-
-    .pre-caption-rest{
-            left: 70px;
+    .first-rest{
+        left: 70px;
     }
 
-    .caption-restaurant{
-            left: 70px;
+    .second-rest{
+        top: -198px;
     }
+
+.container-rest{
+    margin-right: 37px;
+    margin-bottom: 162px;
+}
+
 
     .paragraph-restaurant{
         min-width: 518px;
         height: 60px;
-        left: 70px;
-        margin-bottom: 162px;
     }
 
     .rest-one{
         width: 460px;
         height: 574px;
-        left: 640px;
 
     }
   
     .rest-two{
         width: 460px;
-        height: 574px;  
-        left: 70px;   
-        top: -574px;  
+        height: 574px;   
     }
-
 
     .gold-paragraph-rest{
-        left: 577px;
-        top: -950px;
+        margin-left: 32px;
     }
+
+
 
   }
