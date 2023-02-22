@@ -141,7 +141,6 @@
 .input::placeholder,
 .input::placeholder {
   font-weight: 700;
-  font-size: 20px;
   line-height: 1.15;
   letter-spacing: 0.05em;
   color: #808080;
@@ -168,7 +167,7 @@
   font-family: "Times New Roman";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.15;
   letter-spacing: 0.05em;
   color: #808080;

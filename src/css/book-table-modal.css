@@ -90,16 +90,25 @@
 
 .form-label {
   display: block;
-  margin-top: 20px;
+  
+}
+
+.grup,
+.input_grup,
+.select_grup {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
 }
 
 @media screen and (min-width: 712px) {
-  .grup {
-    display: flex;
-    row-gap: 8px;
+  .grup {    
+    flex-direction: row;
     column-gap: 16px;
   }
-}
+} 
+
+
 
 .input,
 .select {
@@ -128,8 +137,7 @@
 
 .input::placeholder,
 .input::placeholder {
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: 700;  
   line-height: 1.15;
   letter-spacing: 0.05em;
   color: #808080;
@@ -156,8 +164,8 @@
   font-family: "Times New Roman";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
+  font-size: 24px;
+  line-height: 1.16;
   letter-spacing: 0.05em;
   color: #808080;
   cursor: pointer;
