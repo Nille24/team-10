@@ -73,6 +73,8 @@ color: var(--third-grey);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
+    bottom: -448px;
 }
 
 .book-a-room{
