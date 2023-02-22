@@ -159,6 +159,11 @@
 
 
 @media screen and (max-width: 1023px) {
+   
+    .hero-rest-list{
+     margin-left: auto;
+     margin-right: auto;
+    }
 
     .hero-rest-title {
         font-size: 90px;
@@ -186,6 +191,10 @@
 .hero-rest-address-tap{
        top: 64px;
      right: 15px;  
+}
+
+.hero-rest-soc-list{
+    margin-top: 58px;
 }
 }
 @media screen and (min-width: 1024px) and (max-width:1279px) {
@@ -262,8 +271,7 @@
         gap: 40px;
     }
 
-    .hero-rest-address-tap{
-        left: 47px;
-        bottom: 65px;
-    }
+     .address-btn{
+        margin-top: 145px;
+     }
 }
