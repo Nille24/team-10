@@ -51,6 +51,11 @@
     margin-bottom: 40px;
 
 }
+.address-btn{
+    display: flex;
+}
+
+
 
 .hero-post-text-graph {
     font-family: 'Times New Roman';
@@ -64,7 +69,7 @@
 }
 
 .hero-address-tap {
-    position: absolute;
+    /* position: absolute; */
      /* top: 64px; 
      right: 15px;  */
     border: 1px solid rgba(243, 198, 83, 0.7);
@@ -108,7 +113,7 @@
 .hero-btn-teble {
     min-width: 236px;
     height: 48px;
-    font-family: inherit;
+    font-family: 'Montserrat';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.25;
@@ -131,7 +136,7 @@
 .hero-btn-number {
     min-width: 232px;
     height: 48px;
-    font-family: inherit;
+    font-family: 'Montserrat';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.25;
@@ -175,7 +180,13 @@
         position: absolute;
           top: 64px; 
          right: 15px;}
+
+         .hero-btn-list{
+            margin-left: auto;
+            margin-right: auto;
+         }
 }
+
 
 
 @media screen and (min-width: 1024px) {
@@ -189,7 +200,7 @@
     }
 
     .hero-address-tap {
-        position: absolute;
+        /* position: absolute; */
         max-width: 285px;
         bottom: 107px;
         /* left: 47px; */
@@ -221,10 +232,11 @@
     }
 
     .hero-address-tap {
-        position: absolute;
+        /* position: absolute; */
         max-width: 285px;
         bottom: 77px;
         left: 47px;
 
     }
+    
 }
