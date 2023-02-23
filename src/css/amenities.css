@@ -24,7 +24,7 @@
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: var(--text-grey);
-  margin-bottom: 0;
+  margin-bottom: 16px;
 }
 
 .room-page-list {
@@ -106,11 +106,18 @@
   margin-left: 8px;
 }
 
+
+/* --------- MOBILE -----------*/
+
 @media screen and (min-width: 414px) {
   .room-page-link {
     font-size: 16px;
   }
 }
+
+
+/* --------- TABLET -----------*/
+
 
 @media screen and (min-width: 1024px) {
   .container {
@@ -129,6 +136,7 @@
 
   .room-page-text {
     max-width: 400px;
+    margin-bottom: 0;
   }
 
   .amenities-bottom-wrap {
@@ -146,6 +154,9 @@
     font-size: 20px;
   }
 }
+
+
+/* --------- DESKTOP -----------*/
 
 @media screen and (min-width: 1280px) {
 
