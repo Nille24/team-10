@@ -130,10 +130,7 @@
 
 
 @media screen and (max-width:1023px) {
-    .container {
-       min-width: 414px;
-    }
-   
+
 
     .hero-hotel-btn-number:first-child{
         margin-bottom: 24px;
@@ -146,6 +143,10 @@
    }
    .hero-hotel-address-tap{
    top: 64px;
+}
+
+.hero-hotel{
+    padding-bottom: 20px;
 }
 }
 
@@ -186,9 +187,7 @@
 
 
 @media screen and (min-width: 1280px) {
-    .container {
-        width: 1140px;
-    }
+  
     .hero-hotel {
         background-image: linear-gradient(rgba(0, 0, 0, 0.65) , rgba(0, 0, 0, 0.65)), url(../img/hero_bg_nomer_hotel_desktop.jpg);
     }
@@ -198,6 +197,10 @@
     .hero-hotel-btn{
         display: flex;
         gap: 40px;
+    }
+    
+    .hero-hotel{
+        margin-bottom: 20px;
     }
 }
 

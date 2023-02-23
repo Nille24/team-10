@@ -4,6 +4,10 @@
     background-image:linear-gradient(rgba(0, 0, 0, 0.65) , rgba(0, 0, 0, 0.65)) , url(../img/homepage_restaurant_bg_mobile.jpg);
     background-repeat: no-repeat;
     background-size:cover ;
+    background-position: center;
+    margin: 0 auto;
+    /* max-width: 1280px; */
+    width: 100%;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -23,13 +27,17 @@ background-image: linear-gradient( rgba(0, 0, 0, 0.7) ,  rgba(0, 0, 0, 0.7)) , u
   height: 735px;
 }
 
+.info-rest{
+  position: relative;
+  left: 125px;
+  width: 259px;
+}
+
 
 
 .hero-name-restaurant{
-position: relative;
 width: 127px;
 height: 43px;
-left: 125px;
 margin-bottom: 12px;
 font-family: 'Film P3 Bold';
 font-style: normal;
@@ -41,10 +49,8 @@ color: var(--white-color);
 }
 
 .restaurant-name{
-position: relative;
 width: 127px;
 height: 24px;
-left: 125px;
 margin-bottom: 20px;
 font-family: 'Montserrat';
 font-style: normal;
@@ -56,10 +62,8 @@ color: var(--white-color);
 }
 
 .info-restaurant{
-position: relative;
 width: 259px;
 height: 62px;
-left: 125px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
@@ -73,6 +77,8 @@ color: var(--third-grey);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
+    top: 445px;
 }
 
 .book-a-table{
@@ -110,7 +116,6 @@ line-height: 1.25;
 letter-spacing: 0.02em;
 color: var(--accent-color); 
 padding: 14px 31px;
-height: 48px;
 transition: border var(--transition) , bakcground var(--transition) ;
 }
 
@@ -127,12 +132,19 @@ transition: border var(--transition) , bakcground var(--transition) ;
     .container {
       max-width: 384px;
     }
+
+ 
   }
   
   /* ---------------------tablet----------------- */
   @media screen and (min-width: 1024px) {
     .container {
       max-width: 994px;
+    }
+
+    .info-rest{
+      left: 263px;
+      width: 610px;
     }
 
     .details-of-our-restaurant{
@@ -162,30 +174,24 @@ transition: border var(--transition) , bakcground var(--transition) ;
   }
   
     .hero-name-restaurant{
-      position: relative;
       width: 202px;
       margin-bottom: 16px;
       height: 69px;
-      left: 263px;
       font-size: 64px;
       line-height: 1.07;
       }
       
       .restaurant-name{
-        position: relative;
         width: 126px;
         height: 29px;
         margin-bottom: 8px;
-      left: 263px;
       font-size: 24px;
       line-height: 1.15;
       }
       
       .info-restaurant{
-        position:relative;
         width: 610px;
         height: 44px;
-        left: 263px;
         font-size: 16px;
         line-height: 1.25;
       }
@@ -195,6 +201,7 @@ transition: border var(--transition) , bakcground var(--transition) ;
          left: 32px;
          display: inline-grid;
          position: relative;
+         top: unset;
         }
 
         .restaurant-link{
@@ -209,6 +216,11 @@ transition: border var(--transition) , bakcground var(--transition) ;
     .container {
       max-width: 1250px;
     }
+
+    .info-rest{
+      left: 323px;
+    }
+
 
     .details-of-our-restaurant{
       padding-top: 24px;
@@ -231,17 +243,7 @@ transition: border var(--transition) , bakcground var(--transition) ;
       padding-bottom: 94px;
     }
 
-    .hero-name-restaurant{
-      left: 323px;
-      }
-      
-      .restaurant-name{
-        left: 323px;
-      }
-      
-      .info-restaurant{
-        left: 323px;
-      }
+
 
     .set{
       left: 70px;

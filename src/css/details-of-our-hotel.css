@@ -4,6 +4,10 @@
     background-image: linear-gradient( rgba(0, 0, 0, 0.7) ,  rgba(0, 0, 0, 0.7)) , url(../img/background-homepage-hotel-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    /* max-width: 1280px; */
+    width: 100%;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -22,14 +26,16 @@
 
 
 .info-hot{
-    width: 384px;
+  position: relative;
+  left: 17px;
+  width: 243px;
+  display: grid;
+  justify-items: end;
 }
 
 .hero-name-hotel{
-position: relative;
 width: 127px;
 height: 43px;
-left: 128px;
 margin-bottom: 12px;
 font-family: 'Film P3 Bold';
 font-style: normal;
@@ -41,10 +47,8 @@ color: var(--white-color);
 }
 
 .hotel-name{
-position: relative;
 width: 73px;
 height: 24px;
-left: 186px;
 margin-bottom: 20px;
 font-family: 'Montserrat';
 font-style: normal;
@@ -56,10 +60,8 @@ color: var(--white-color);
 }
 
 .info-hotel{
-position: relative;
 width: 243px;
 height: 62px;
-left: 17px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
@@ -73,6 +75,8 @@ color: var(--third-grey);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
+    top: 445px;
 }
 
 .book-a-room{
@@ -111,7 +115,6 @@ line-height: 1.25;
 letter-spacing: 0.02em;
 color: var(--accent-color);
 padding: 14px 37px; 
-height: 48px;
 transition: border var(--transition) , bakcground var(--transition) ;
 }
 
@@ -163,28 +166,22 @@ transition: border var(--transition) , bakcground var(--transition) ;
   }
 
   .hero-name-hotel{
-    position: relative;
     width: 202px;
     height: 69px;
-    left: 529px;
     font-size: 64px;
     line-height: 1.07;
     }
     
     .hotel-name{
-      position: relative;
      width: 87px;
      height: 29px;
-     left: 644px;
     font-size: 24px;
     line-height: 1.15;
     }
     
     .info-hotel{
-      position: relative;
      width: 549px;
      height: 44px;
-     left: 182px;
     font-size: 16px;
     line-height: 1.25;
     }
@@ -194,6 +191,12 @@ transition: border var(--transition) , bakcground var(--transition) ;
       left: 716px;
       display: inline-grid;
       position: relative;
+      top: unset;
+  }
+
+  .info-hot{
+    width: 549px;
+    left: 182px;
   }
   
   }
@@ -204,6 +207,8 @@ transition: border var(--transition) , bakcground var(--transition) ;
     .container {
       max-width: 1250px;
     }
+
+
 
     .details-of-our-hotel{
       padding-top: 24px;
@@ -221,18 +226,10 @@ transition: border var(--transition) , bakcground var(--transition) ;
   }
   }
 
-    .hero-name-hotel{
-      left: 725px;
-      }
-      
-      .hotel-name{
-       left: 840px;
-      }
-      
-      .info-hotel{
-        width: 595px;
-       left: 332px;
-      }
+.info-hot{
+  width: 595px;
+  left: 332px;
+}
 
       .option{
         left: 944px;
