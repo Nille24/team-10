@@ -145,7 +145,10 @@
 .input,
 .select {
   width: 100%;
-  height: 54px;
+  /* height: 54px; */
+
+  padding-top: 18px;
+  padding-bottom: 18px;
 
   font-family: 'Times New Roman';
   font-style: normal;
