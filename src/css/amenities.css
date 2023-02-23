@@ -24,6 +24,7 @@
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: var(--text-grey);
+  margin-bottom: 16px;
 }
 
 .room-page-list {
@@ -85,6 +86,9 @@
   letter-spacing: 0.02em;
   color: var(--brown-color);
   transition: color var(--transition);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .room-page-link:hover,
@@ -99,10 +103,10 @@
   background-image: url(../img/cil_arrow-right.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  display: inline-flex;
-  align-items: center;
   margin-left: 8px;
 }
+
+/* --------- MOBILE -----------*/
 
 @media screen and (min-width: 414px) {
   .room-page-link {
@@ -110,10 +114,18 @@
   }
 }
 
+/* --------- TABLET -----------*/
+
 @media screen and (min-width: 1024px) {
   .container {
-    padding-left: 37px;
+    padding-left: 47px;
     padding-right: 47px;
+   
+  }
+
+.amenities > .container {
+    width: 100%;
+    max-width: 993px;
   }
 
   .room-page-undertitle {
@@ -127,6 +139,7 @@
 
   .room-page-text {
     max-width: 400px;
+    margin-bottom: 0;
   }
 
   .amenities-bottom-wrap {
@@ -145,7 +158,12 @@
   }
 }
 
+/* --------- DESKTOP -----------*/
+
 @media screen and (min-width: 1280px) {
+  .container {
+    padding-left: 85px;
+  }
 
   .text-wrap {
     column-gap: 159px;
