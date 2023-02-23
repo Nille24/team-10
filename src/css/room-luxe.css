@@ -79,6 +79,10 @@ body{
     gap: 16px;
     position: relative;
 }
+.slider-img{
+    width: 194px;
+    height: 194px;
+}
 .slide-icons{
     display: flex;
     gap: 34px;
@@ -152,6 +156,7 @@ body{
     .slide-img{
         margin-top: 0;
         margin-bottom: 37px;
+        gap: 40px;
     }
     .slide-icons{
         width: 423px;
@@ -187,7 +192,12 @@ body{
     .title{
         margin-bottom: 72px;
     }
-    .slide-img{
+    .slide-icons{
+        width: 548px;
+    }
+    .slider-img{
+        width: 254px;
+        height: 254px;
         margin-bottom: 40px;
     }
     .img-room{
@@ -195,10 +205,10 @@ body{
         height: 574px;
         position: absolute;
         top: -97px;
-        right: 112px;
+        right: 77px;
     }
     .dooble-room-button{
-        bottom: 105px;
-        right: 85px;
+        bottom: 134px;
+        right: 0px;
     }
 }   

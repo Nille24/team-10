@@ -70,19 +70,20 @@ body{
 .room-img-trip{
     display: flex;
     justify-content: start;
-}
-.img-room{
     background: #DADADA;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
-    
-    max-width: 244px;
+    width: 244px;
     height: 322px;
-}
+}   
 .slide-img{
     margin-top: 32px;
     display: flex;
     gap: 16px;
+}
+.slider-img{
+    width: 194px;
+    height: 194px;
 }
 .slide-img-trip{
     margin-top: 32px;
@@ -186,13 +187,14 @@ body{
     .room-img-trip{
         position: absolute;
         top: -97px;
-        left: 112px;
+        left: 96px;
         display: block;
-        width: 400px;
         height: 524px;
+        width: 400px;
     }
-    .slide-img{
+    .slide-img-trip{
         margin-top: 0;
+        gap: 40px;
     }
     .slide-icons-tripl{
         width: 400px;
@@ -221,11 +223,21 @@ body{
     .room-trip-description{
         max-width: 455px;
     }
+    .room-img-trip{
+        width: 460px;
+    }
+    .slider-img{
+        width: 254px;
+        height: 254px;
+    }
+    .slide-icons-tripl{
+        width: 548px;
+    }
     .trip-title{
         margin-bottom: 72px;
     }
     .tripl-room-button{
         bottom: 105px;
-        left: 85px;
+        left: 0;
     }
 }
