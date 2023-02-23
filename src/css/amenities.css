@@ -106,7 +106,6 @@
   margin-left: 8px;
 }
 
-
 /* --------- MOBILE -----------*/
 
 @media screen and (min-width: 414px) {
@@ -115,14 +114,18 @@
   }
 }
 
-
 /* --------- TABLET -----------*/
-
 
 @media screen and (min-width: 1024px) {
   .container {
     padding-left: 47px;
     padding-right: 47px;
+   
+  }
+
+.amenities > .container {
+    width: 100%;
+    max-width: 993px;
   }
 
   .room-page-undertitle {
@@ -155,10 +158,12 @@
   }
 }
 
-
 /* --------- DESKTOP -----------*/
 
 @media screen and (min-width: 1280px) {
+  .container {
+    padding-left: 85px;
+  }
 
   .text-wrap {
     column-gap: 159px;
