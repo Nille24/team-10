@@ -170,16 +170,13 @@
 /* --------- TABLET  --------- */
 
 @media screen and (min-width: 1024px) {
-  .container > .contacts-container {
-    padding: 0;
-    width: 100%;
-    max-width: 1024px;
+  .contacts {
+    padding-top: 69px;
+    padding-bottom: 40px;
   }
 
   .contacts-container {
     display: flex;
-    padding-top: 69px;
-    padding-bottom: 40px;
   }
 
   .tablet-wrap {
@@ -247,7 +244,7 @@
     padding-top: 0;
     padding-bottom: 0;
   }
-  
+
   .contacts-container {
     padding-top: 64px;
     padding-bottom: 74px;
