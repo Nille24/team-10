@@ -248,6 +248,7 @@
   .contacts-container {
     padding-top: 64px;
     padding-bottom: 74px;
+    justify-content: center;
   }
 
   iframe {
