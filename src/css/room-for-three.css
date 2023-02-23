@@ -7,13 +7,14 @@ body{
     background-color: #fffdee;
 }
 .conteiner-trip{
+    position: relative;
     max-width: 414px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
 }
 .tripl-room{
-    position: relative;
+    /* position: relative; */
     background-color: #F0ECD6;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -69,19 +70,20 @@ body{
 .room-img-trip{
     display: flex;
     justify-content: start;
-}
-.img-room{
     background: #DADADA;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
-    
-    max-width: 244px;
+    width: 244px;
     height: 322px;
-}
+}   
 .slide-img{
     margin-top: 32px;
     display: flex;
     gap: 16px;
+}
+.slider-img{
+    width: 194px;
+    height: 194px;
 }
 .slide-img-trip{
     margin-top: 32px;
@@ -147,6 +149,7 @@ body{
 }
 @media screen and (min-width: 414px) {
     .conteiner{
+        position: relative;
         width: 414px;
     }
     
@@ -181,22 +184,28 @@ body{
         margin-bottom: 174px;
         margin-left: auto;
     }
-    .img-room-trip{
-        width: 400px;
-        height: 524px;
+    .room-img-trip{
         position: absolute;
-        top: -32px;
-        left: 174px;
+        top: -97px;
+        left: 96px;
+        display: block;
+        height: 524px;
+        width: 400px;
+    }
+    .slide-img-trip{
+        margin-top: 0;
+        gap: 40px;
     }
     .slide-icons-tripl{
         width: 400px;
         justify-content: flex-start;
         margin-left: auto;
         margin-top: 32px;
+        margin-bottom: 0;
     }
     .tripl-room-button{
         position: absolute;
-        bottom: 147px;
+        bottom: 105px;
         left: 47px;
     }
 }       
@@ -214,11 +223,21 @@ body{
     .room-trip-description{
         max-width: 455px;
     }
+    .room-img-trip{
+        width: 460px;
+    }
+    .slider-img{
+        width: 254px;
+        height: 254px;
+    }
+    .slide-icons-tripl{
+        width: 548px;
+    }
     .trip-title{
         margin-bottom: 72px;
     }
     .tripl-room-button{
-        bottom: 182px;
-        left: 85px;
+        bottom: 105px;
+        left: 0;
     }
 }
