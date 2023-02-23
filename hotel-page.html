@@ -122,21 +122,21 @@
       <li class="hero-hotel-soc-item">
         <a href="#" class="hero-hotel-soc-link">
           <svg class="hero-hotel-soc-icon" width="24" height="24">
-            <use href="../img/symbol-defs.svg#icon-instagram-2"></use>
+            <use href="/team-10/assets/symbol-defs-99bd8bc3.svg#icon-instagram-2"></use>
           </svg>
         </a>
       </li>
       <li class="hero-hotel-soc-item">
         <a href="#" class="hero-hotel-soc-link">
           <svg class="hero-hotel-soc-icon" width="24" height="24">
-            <use href="../img/symbol-defs.svg#icon-facebook"></use>
+            <use href="/team-10/assets/symbol-defs-99bd8bc3.svg#icon-facebook"></use>
           </svg>
         </a>
       </li>
       <li class="hero-hotel-soc-item">
         <a href="#" class="hero-hotel-soc-link">
           <svg class="hero-hotel-soc-icon" width="24" height="24">
-            <use href="../img/symbol-defs.svg#icon-telegram"></use>
+            <use href="/team-10/assets/symbol-defs-99bd8bc3.svg#icon-telegram"></use>
           </svg>
         </a>
       </li>
@@ -151,41 +151,48 @@
         <h3 class="title">MIMIHO</h3>
         <h4 class="room-luxe-title">ДВОМІСНИЙ НОМЕР люкс</h4>
         <p class="room-luxe-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-        <img 
-        src="/team-10/assets/hotel_hotelrooms_mobile-1ac2f9a8.jpg" 
-        srcset="/team-10/assets/hotel_hotelrooms_mobile-1ac2f9a8.jpg 244w, /team-10/assets/hotel_hotelrooms_tablet-949d81b3.jpg 400w, /team-10/assets/hotel_hotelrooms_desktop-d5c3890d.jpg 460w"
-        alt="room-luxe"
-        class="img-room">
+        <div class="room-img">
+            <picture class="img-room" >
+                <source 
+                    srcset="./src/img/hotel_hotelrooms_desktop.jpg,
+                            ./src/img/room-luxe-2x-desktop.jpeg 2x"
+                    type="image/jpeg"
+                    media="(min-width: 1280px)" />
+                <source 
+                    srcset="./src/img/room-lux1x.jpeg 1x,
+                            ./src/img/room-lux2x-tablet.jpeg 2x"
+                    type="image/jpeg"
+                    media="(min-width: 1024px)" />
+                <source 
+                    srcset="./src/img/room-lux-1x-mobile.jpeg 1x,
+                            ./src/img/room-lux-2x-mobile.jpeg 2x"
+                    type="image/jpeg"
+                    media="(min-width:320px)"/>
+                <img href="./img/hotel_hotelrooms_desktop.jpg">
+            </picture>
+        </div>
         <div class="slide-img">
-            <img 
-                src="/team-10/assets/slide-1-1x-tablet-e9a3cda9.jpeg" 
-                srcset="/team-10/assets/slide-1-1x-tablet-e9a3cda9.jpeg 194w, /team-10/assets/slide-1-1x-desktop-9eb0d870.jpeg 254w"
-                alt="arrangement-pf-bathroom-elements"
-                class="slider-img">
-            <img 
-                src="
-                ./img/slide-2-1x-mobile.jpeg" 
-                srcset="/team-10/assets/slide-2-1x-mobile-72f773d7.jpeg 194w, /team-10/assets/slide-2-1x-desktop-4ce7547f.jpeg 254w"
-                alt="window"
-                class="slider-img">
+            <img src="/team-10/assets/slide-1-1x-tablet-e9a3cda9.jpeg" alt="arrangement-pf-bathroom-elements">
+            <img src="/team-10/assets/slide-2-1x-mobile-72f773d7.jpeg" alt="window">
         </div>
         <div class="slide-icons">
             <svg class="slide-icon">
-                <use href="../img/symbol-defs.svg#icon-arrow-left"></use>
+                <use href="/team-10/assets/symbol-defs-99bd8bc3.svg#icon-arrow-left"></use>
             </svg>
             <svg class="slide-icon">
-                <use href="../img/symbol-defs.svg#icon-arrow-right"></use>
+                <use href="/team-10/assets/symbol-defs-99bd8bc3.svg#icon-arrow-right"></use>
             </svg>
         </div>
+    </div>
         <div class="dooble-room-button">
-            <a rel="details" href="../room-page.html" class="lux-info">
+            <a rel="details" href="./room-page.html" class="lux-info">
                 Детальніше
             </a>
             <button class="lux-price js-open-modal" data-modal="3">
                 Переглянути ціни
             </button>
         </div>
-    </div>
+    
 </section>
     <!-- 1 room for 3 adult -->
     <section class="tripl-room">
@@ -194,41 +201,34 @@
         <h3 class="trip-title">MIMIHO</h3>
         <h4 class="room-trip-title">ТРЬОХМІСНИЙ НОМЕР</h4>
         <p class="room-trip-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-        <img 
-        src="/team-10/assets/hotel_hotelrooms_mobile-1ac2f9a8.jpg" 
-        srcset="/team-10/assets/hotel_hotelrooms_mobile-1ac2f9a8.jpg 244w, /team-10/assets/hotel_hotelrooms_tablet-949d81b3.jpg 400w, /team-10/assets/hotel_hotelrooms_desktop-d5c3890d.jpg 460w"
-        alt="room-luxe"
-            class="room-img-trip">
+        <div class="room-img-trip">
+            <picture class="img-room-trip">
+                <source srcset="/team-10/assets/hotel_hotelrooms_tablet-949d81b3.jpg " media="(mix-width: 1024px)">
+                <source srcset="/team-10/assets/hotel_hotelrooms_desktop-d5c3890d.jpg " media="(min-width: 1280px)">
+                <img src="/team-10/assets/hotel_hotelrooms_mobile-1ac2f9a8.jpg" alt="hotel room" width="400px" height="525px">
+              </picture>
+        </div>
         <div class="slide-img-trip">
-            <img 
-                src="/team-10/assets/slide-1-1x-tablet-e9a3cda9.jpeg" 
-                srcset="/team-10/assets/slide-1-1x-tablet-e9a3cda9.jpeg 194w, /team-10/assets/slide-1-1x-desktop-9eb0d870.jpeg 254w"
-                alt="arrangement-pf-bathroom-elements"
-                class="slider-img">
-            <img 
-                src="
-                ./img/slide-2-1x-mobile.jpeg" 
-                srcset="/team-10/assets/slide-2-1x-mobile-72f773d7.jpeg 194w, /team-10/assets/slide-2-1x-desktop-4ce7547f.jpeg 254w"
-                alt="window"
-                class="slider-img">
+            <img src="/team-10/assets/slide-1-1x-tablet-e9a3cda9.jpeg" alt="arrangement-pf-bathroom-elements">
+            <img src="/team-10/assets/slide-2-1x-mobile-72f773d7.jpeg" alt="window">
         </div>
         <div class="slide-icons-tripl">
             <svg class="slide-icon">
-                <use href="../img/symbol-defs.svg#icon-arrow-left"></use>
+                <use href="/team-10/assets/symbol-defs-99bd8bc3.svg#icon-arrow-left"></use>
             </svg>
             <svg class="slide-icon">
-                <use href="../img/symbol-defs.svg#icon-arrow-right"></use>
+                <use href="/team-10/assets/symbol-defs-99bd8bc3.svg#icon-arrow-right"></use>
             </svg>
         </div>
+    </div>
         <div class="tripl-room-button">
-            <a rel="details" href="../page-room-third.html" class="lux-info">
+            <a rel="details" href="./page-room-third.html" class="lux-info">
                 Детальніше
             </a>
             <button class="lux-price js-open-modal" data-modal="3">
                 Переглянути ціни
             </button>
         </div>
-    </div>
 </section>
     <!-- 1 room for 2 adult -->
     <section class="double-room">
@@ -237,41 +237,31 @@
         <h3 class="title">MIMIHO</h3>
         <h4 class="room-luxe-title">ДВОМІСНИЙ НОМЕР</h4>
         <p class="room-luxe-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-        <img 
-        src="/team-10/assets/hotel_hotelrooms_mobile-1ac2f9a8.jpg" 
-        srcset="/team-10/assets/hotel_hotelrooms_mobile-1ac2f9a8.jpg 244w, /team-10/assets/hotel_hotelrooms_tablet-949d81b3.jpg 400w, /team-10/assets/hotel_hotelrooms_desktop-d5c3890d.jpg 460w"
-        alt="room-luxe"
-        class="img-room">
+        <div class="room-img">
+            <img
+            class="img-room" src="./img/hotel-img/img/hotel-img/room-lux-1x-mobile.jpeg" alt="room-luxe">
+        </div>
         <div class="slide-img">
-            <img 
-                src="/team-10/assets/slide-1-1x-tablet-e9a3cda9.jpeg" 
-                srcset="/team-10/assets/slide-1-1x-tablet-e9a3cda9.jpeg 194w, /team-10/assets/slide-1-1x-desktop-9eb0d870.jpeg 254w"
-                alt="arrangement-pf-bathroom-elements"
-                class="slider-img">
-            <img 
-                src="
-                ./img/slide-2-1x-mobile.jpeg" 
-                srcset="/team-10/assets/slide-2-1x-mobile-72f773d7.jpeg 194w, /team-10/assets/slide-2-1x-desktop-4ce7547f.jpeg 254w"
-                alt="window"
-                class="slider-img">
+            <img src="/team-10/assets/slide-1-1x-tablet-e9a3cda9.jpeg" alt="arrangement-pf-bathroom-elements">
+            <img src="/team-10/assets/slide-2-1x-mobile-72f773d7.jpeg" alt="window">
         </div>
         <div class="slide-icons">
             <svg class="slide-icon">
-                <use href="../img/symbol-defs.svg#icon-arrow-left"></use>
+                <use href="/team-10/assets/symbol-defs-99bd8bc3.svg#icon-arrow-left"></use>
             </svg>
             <svg class="slide-icon">
-                <use href="../img/symbol-defs.svg#icon-arrow-right"></use>
+                <use href="/team-10/assets/symbol-defs-99bd8bc3.svg#icon-arrow-right"></use>
             </svg>
         </div>
+    </div>
         <div class="dooble-room-button">
-            <a rel="details" href="../page-room-second.html" class="lux-info">
+            <a rel="details" href="./page-room-second.html" class="lux-info">
                 Детальніше
             </a>
             <button class="lux-price js-open-modal" data-modal="3">
                 Переглянути ціни
             </button>
         </div>
-    </div>
 </section>
     <!-- Room Price Modal window -->
     <div class="overlay js-overlay-modal"></div>
