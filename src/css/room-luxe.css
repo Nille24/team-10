@@ -190,6 +190,13 @@ body{
     .slide-img{
         margin-bottom: 40px;
     }
+    .img-room{
+        width: 460px;
+        height: 574px;
+        position: absolute;
+        top: -97px;
+        right: 112px;
+    }
     .dooble-room-button{
         bottom: 105px;
         right: 85px;
