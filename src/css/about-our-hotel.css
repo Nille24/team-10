@@ -120,10 +120,10 @@ margin-bottom: 32px;
     .about-hotel-img.top {
         width: 400px;
         margin-left: 26px;
-        /* position: absolute;
+        position: absolute;
         left: 50%;
         bottom: 50%;
-        transform: translatey(-15%); */
+        transform: translatey(-15%);
     }
 
     .about-hotel-img.btm {
