@@ -123,6 +123,7 @@ border-radius: 2px;
         position: relative;
         left: 32px;
         flex-wrap: nowrap;
+        width: 865px;
     }
 
     .second-rest{
@@ -130,6 +131,7 @@ border-radius: 2px;
         position: relative;
         top: -166px;
         left: 32px;
+        width: 710px;
     }
 
     
@@ -210,12 +212,15 @@ border-radius: 2px;
 
     .first-rest{
         left: 85px;
+        width: 1015px;
     }
 
     .second-rest{
         top: -198px;
         left: 85px;
+        width: 800px;
     }
+
 
 .container-rest{
     margin-bottom: 162px;
