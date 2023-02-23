@@ -209,11 +209,12 @@ border-radius: 2px;
     }
 
     .first-rest{
-        left: 70px;
+        left: 85px;
     }
 
     .second-rest{
         top: -198px;
+        left: 85px;
     }
 
 .container-rest{
