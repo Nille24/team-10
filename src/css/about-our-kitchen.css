@@ -56,7 +56,7 @@ border-radius: 2px;
 }
 
 .kitchen-img.top {
-    margin-left: 140px;
+    margin-left: auto;
 }
 
 .kitchen-item-wrap.btm {
@@ -147,6 +147,7 @@ margin-bottom: 32px;
     }
 
     .kitchen-img.top {
+        margin-left: 90px;
         width: 460px;
     }
 
