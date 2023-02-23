@@ -1,3 +1,5 @@
+/* Стили для подложки */
+
 .overlay {
   /* Скрываем подложку  */
   opacity: 0;
@@ -78,15 +80,43 @@
   display: block;
   text-align: center;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 1.16;
+  font-size: 24px;
+  line-height: 1.15;
   letter-spacing: 0.05em;
-  color: #000000;  
+  color: #000000;
 }
+
+@media screen and (min-width: 712px) {
+  .modal__title {
+    font-size: 40px;
+  }
+}
+
+.grup,
+.input_grup,
+.select_grup {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+@media screen and (min-width: 712px) {
+  .grup {
+    flex-direction: row;
+    column-gap: 16px;
+  }
+}
+
+
+
+/*  */
 
 .reserv-form {
   margin-top: 40px;
 }
+
+/*--- ЗАБРОНЮВАТИ НОМЕР ---*/
+
 .input-room-grup,
 .room-select-two,
 .room-grup {
@@ -96,10 +126,9 @@
 }
 
 @media screen and (min-width: 712px) {
-  .input-room-grup { 
+  .input-room-grup {
     flex-direction: row;
-    column-gap: 16px;  
-   
+    column-gap: 16px;
   }
 
   .room-select-ona {
@@ -109,7 +138,7 @@
 
   .room-select-two {
     flex-direction: row;
-    column-gap: 16px; 
+    column-gap: 16px;
   }
 }
 
@@ -117,6 +146,15 @@
 .select {
   width: 100%;
   height: 54px;
+
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: #808080;
+
   padding-left: 12px;
   padding-right: 12px;
   border: 1px solid #c79002;
@@ -128,6 +166,7 @@
   .input,
   .select {
     width: 288px;
+    font-size: 24px;
   }
 }
 
@@ -141,13 +180,14 @@
 .input::placeholder,
 .input::placeholder {
   font-weight: 700;
+  font-size: 20px;
   line-height: 1.15;
   letter-spacing: 0.05em;
   color: #808080;
 }
 .input-text {
   display: block;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -164,10 +204,10 @@
   -webkit-appearance: none;
   appearance: none;
 
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+
   line-height: 1.15;
   letter-spacing: 0.05em;
   color: #808080;
@@ -183,7 +223,7 @@
 }
 
 .select-wrapper::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   right: 17px;
@@ -191,15 +231,16 @@
   display: block;
   width: 20px;
   height: 12px;
-  background-image: url(../img/icons.svg);
+  background-image: url(../img/wrapper.svg);
   pointer-events: none;
+  transform: rotate(180);
 }
 
 .reserved {
   width: 100%;
   height: 64px;
   margin-top: 40px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
