@@ -7,13 +7,14 @@ body{
     background-color: #fffdee;
 }
 .conteiner-trip{
+    position: relative;
     max-width: 414px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
 }
 .tripl-room{
-    position: relative;
+    /* position: relative; */
     background-color: #F0ECD6;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -147,6 +148,7 @@ body{
 }
 @media screen and (min-width: 414px) {
     .conteiner{
+        position: relative;
         width: 414px;
     }
     
@@ -181,22 +183,27 @@ body{
         margin-bottom: 174px;
         margin-left: auto;
     }
-    .img-room-trip{
+    .room-img-trip{
+        position: absolute;
+        top: -97px;
+        left: 112px;
+        display: block;
         width: 400px;
         height: 524px;
-        position: absolute;
-        top: -32px;
-        left: 174px;
+    }
+    .slide-img{
+        margin-top: 0;
     }
     .slide-icons-tripl{
         width: 400px;
         justify-content: flex-start;
         margin-left: auto;
         margin-top: 32px;
+        margin-bottom: 0;
     }
     .tripl-room-button{
         position: absolute;
-        bottom: 147px;
+        bottom: 105px;
         left: 47px;
     }
 }       
@@ -218,7 +225,7 @@ body{
         margin-bottom: 72px;
     }
     .tripl-room-button{
-        bottom: 182px;
+        bottom: 105px;
         left: 85px;
     }
 }

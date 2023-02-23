@@ -4,26 +4,30 @@
         <h3 class="title">MIMIHO</h3>
         <h4 class="room-luxe-title">ДВОМІСНИЙ НОМЕР люкс</h4>
         <p class="room-luxe-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-        <div class="room-img">
-            <picture class="img-room" >
-                <source 
-                    srcset="./src/img/hotel_hotelrooms_desktop.jpg,
-                            ./src/img/room-luxe-2x-desktop.jpeg 2x"
-                    type="image/jpeg"
-                    media="(min-width: 1280px)" />
-                <source 
-                    srcset="./src/img/room-lux1x.jpeg 1x,
-                            ./src/img/room-lux2x-tablet.jpeg 2x"
-                    type="image/jpeg"
-                    media="(min-width: 1024px)" />
-                <source 
-                    srcset="./src/img/room-lux-1x-mobile.jpeg 1x,
-                            ./src/img/room-lux-2x-mobile.jpeg 2x"
-                    type="image/jpeg"
-                    media="(min-width:320px)"/>
-                <img href="./img/hotel_hotelrooms_desktop.jpg">
-            </picture>
-        </div>
+        <picture class="img-room">
+            <source 
+                srcset="
+                ../img/img-hotel/room-lux-1x-mobile.jpeg 1x,
+                ../img/img-hotel/room-lux-2x-mobile.jpeg 2x
+                "
+                media="(min-width=:320px)"
+                />
+            <source 
+                srcset="
+                    ../img/img-hotel/room-lux-tablet-1x.jpeg 1x,
+                    ../img/img-hotel/room-lux-tablet-2x.jpeg 2x
+                "
+                media="(min-width=:1024px)"
+                />
+            <source 
+                srcset="
+                    ../img/img-hotel/room-luxe-1x-desktop.jpeg 1x,
+                    ../img/img-hotel/room-luxe-2x-desktop.jpeg 2x
+                "
+                media="(min-width=:1280px)"
+                />
+            <img src="../img/img-hotel/room-lux-1x-mobile.jpeg" alt="room-luxe">
+        </picture>
         <div class="slide-img">
             <img src="../img/slide-1-1x-tablet.jpeg" alt="arrangement-pf-bathroom-elements">
             <img src="../img/slide-2-1x-mobile.jpeg" alt="window">
@@ -36,7 +40,6 @@
                 <use href="../img/symbol-defs.svg#icon-arrow-right"></use>
             </svg>
         </div>
-    </div>
         <div class="dooble-room-button">
             <a rel="details" href="../room-page.html" class="lux-info">
                 Детальніше
@@ -45,5 +48,5 @@
                 Переглянути ціни
             </button>
         </div>
-    
+    </div>
 </section>
