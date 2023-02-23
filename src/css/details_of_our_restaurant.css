@@ -5,6 +5,8 @@
     background-repeat: no-repeat;
     background-size:cover ;
     background-position: center;
+    margin: 0 auto;
+    max-width: 1280px;
 }
 
 @media (min-device-pixel-ratio: 2),

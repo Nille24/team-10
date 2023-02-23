@@ -5,6 +5,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin: 0 auto;
+    max-width: 1280px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -204,6 +206,8 @@ transition: border var(--transition) , bakcground var(--transition) ;
     .container {
       max-width: 1250px;
     }
+
+
 
     .details-of-our-hotel{
       padding-top: 24px;
