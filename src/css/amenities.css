@@ -85,6 +85,9 @@
   letter-spacing: 0.02em;
   color: var(--brown-color);
   transition: color var(--transition);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .room-page-link:hover,
@@ -99,8 +102,6 @@
   background-image: url(../img/cil_arrow-right.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  display: inline-flex;
-  align-items: center;
   margin-left: 8px;
 }
 
