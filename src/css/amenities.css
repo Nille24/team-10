@@ -2,11 +2,7 @@
   background-color: #fffdee;
 }
 
-.amenities > .container {
-  text-align: left;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
+
 
 .room-page-title {
   font-family: Times New Roman, serif;
@@ -117,16 +113,8 @@
 /* --------- TABLET -----------*/
 
 @media screen and (min-width: 1024px) {
-  .container {
-    padding-left: 47px;
-    padding-right: 47px;
-   
-  }
 
-.amenities > .container {
-    width: 100%;
-    max-width: 993px;
-  }
+
 
   .room-page-undertitle {
     max-width: 760px;
@@ -161,9 +149,7 @@
 /* --------- DESKTOP -----------*/
 
 @media screen and (min-width: 1280px) {
-  .container {
-    padding-left: 85px;
-  }
+
 
   .text-wrap {
     column-gap: 159px;

@@ -18,10 +18,7 @@
 }
 }
 
-.details-of-our-hotel> .container{
-    text-align: unset;
-    height: 735px;
-}
+
 
 
 
@@ -128,16 +125,12 @@ transition: border var(--transition) , bakcground var(--transition) ;
 /* ------------------mobil----------------- */
 
 @media screen and (min-width: 414px) {
-    .container {
-      max-width: 384px;
-    }
+
   }
   
   /* ---------------------tablet----------------- */
   @media screen and (min-width: 1024px) {
-    .container {
-      max-width: 994px;
-    }
+
 
     .details-of-our-hotel{
       padding-top: 24px;
@@ -155,10 +148,7 @@ transition: border var(--transition) , bakcground var(--transition) ;
   }
   }
 
-    .details-of-our-hotel> .container{
-      text-align: unset;
-      height: 620px;
-  }
+
 
   .details-of-our-hotel{
     padding-top: 48px;
@@ -204,9 +194,7 @@ transition: border var(--transition) , bakcground var(--transition) ;
   /* ------------------------desktop------------------------ */
   
   @media screen and (min-width: 1280px) {
-    .container {
-      max-width: 1250px;
-    }
+ 
 
 
 

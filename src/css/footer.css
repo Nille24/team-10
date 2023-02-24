@@ -51,10 +51,10 @@
 
 /* positions */
 /* mob */
-.footer-container > .container {
+/* .footer-container > .container {
   max-width: 354px;
   width: 100%;
-}
+} */
 
 .footer-logo-pol {
   display: flex;
@@ -75,24 +75,16 @@
 
 /* mobile */
 @media screen and (min-width: 414px) and (max-width: 1023px) {
-  .container {
-    min-width: 414px;
-    max-width: 414px;
-    width: 414px;
-  }
+
 }
 
 /* tablet */
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .container {
-    min-width: 1024px;
-    max-width: 1024px;
-    width: 1024px;
-  }
-  .footer-container > .container {
+
+  /* .footer-container > .container {
     max-width: 668px;
     width: 100%;
-  }
+  } */
   .footer {
     padding-top: 80px;
     padding-bottom: 83px;
@@ -166,13 +158,7 @@
 
 /* desctope */
 @media screen and (min-width: 1280px) {
-  .container {
-    min-width: 1280px;
-    max-width: 1280px;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 1280px;
-  }
+
 
   .footer {
     padding-top: 80px;
@@ -234,10 +220,10 @@
 
   /* position */
 
-  .footer-container > .container {
+  /* .footer-container > .container {
     max-width: 806px;
     width: 100%;
-  }
+  } */
 
   .footer-menu-soc {
     display: flex;
