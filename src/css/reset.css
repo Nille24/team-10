@@ -48,28 +48,18 @@ img {
 
 
 .container {
-width: 100%;
-max-width: 414px;
-margin: 0 auto;
-padding: 0 15px;
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px){
-.container {
-  max-width: 1024px;
-  width: 100%;
-  padding: 0 15px;
+  max-width: 414px;
   margin: 0 auto;
-}}
-
-@media screen and (min-width: 1280px){
-.container {
-  width: 100%;
-  max-width: 1280px;
   padding: 0 15px;
-  margin: 0 auto;
-
-}}
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1279px){
+  .container {
+    max-width: 1024px;
+  }}
+  @media screen and (min-width: 1280px){
+  .container {
+    max-width: 1280px;
+  }}
 
 .visually-hidden {
   position: absolute;
