@@ -18,15 +18,6 @@ background-image: linear-gradient( rgba(0, 0, 0, 0.7) ,  rgba(0, 0, 0, 0.7)) , u
 }
 }
 
-.details-of-our-restaurant> .container{
-    text-align: unset;
-}
-
-.details-of-our-restaurant> .container{
-  text-align: unset;
-  height: 735px;
-}
-
 .info-rest{
   position: relative;
   left: 125px;
@@ -129,18 +120,14 @@ transition: border var(--transition) , bakcground var(--transition) ;
 /* ------------------mobil----------------- */
 
 @media screen and (min-width: 414px) {
-    .container {
-      max-width: 384px;
-    }
+ 
 
  
   }
   
   /* ---------------------tablet----------------- */
   @media screen and (min-width: 1024px) {
-    .container {
-      max-width: 994px;
-    }
+  
 
     .info-rest{
       left: 263px;
@@ -168,10 +155,7 @@ transition: border var(--transition) , bakcground var(--transition) ;
       padding-bottom: 96px;
     }
 
-    .details-of-our-restaurant> .container{
-      text-align: unset;
-      height: 620px;
-  }
+
   
     .hero-name-restaurant{
       width: 202px;
@@ -213,9 +197,7 @@ transition: border var(--transition) , bakcground var(--transition) ;
   /* ------------------------desktop------------------------ */
   
   @media screen and (min-width: 1280px) {
-    .container {
-      max-width: 1250px;
-    }
+    
 
     .info-rest{
       left: 323px;

@@ -48,8 +48,7 @@ img {
 
 
 .container {
-text-align: center;
-min-width: 320px;
+width: 100%;
 max-width: 414px;
 margin: 0 auto;
 padding: 0 15px;
@@ -57,15 +56,18 @@ padding: 0 15px;
 
 @media screen and (min-width: 1024px) and (max-width: 1279px){
 .container {
-  min-width: 1024px;
-
+  max-width: 1024px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }}
 
 @media screen and (min-width: 1280px){
 .container {
-  min-width: 1280px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
 
 }}
 

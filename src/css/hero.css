@@ -1,4 +1,5 @@
 .hero {
+    text-align: center;
     position: relative;
     width: 100%;
     background-color: #474747;
@@ -23,9 +24,7 @@
             url(../img/);
     }
 }*/
-.hero>.container {
-    text-align: center;
-}
+
 
 .hero-title {
     font-family: 'Film P3 Bold';
