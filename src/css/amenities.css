@@ -1,5 +1,7 @@
 .amenities {
   background-color: #fffdee;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 
@@ -114,7 +116,10 @@
 
 @media screen and (min-width: 1024px) {
 
-
+.amenities{
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
 
   .room-page-undertitle {
     max-width: 760px;
@@ -150,6 +155,10 @@
 
 @media screen and (min-width: 1280px) {
 
+  .amenities{
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
 
   .text-wrap {
     column-gap: 159px;
