@@ -76,12 +76,10 @@
 
 /* mobile */
 @media screen and (min-width: 414px) and (max-width: 1023px) {
-
 }
 
 /* tablet */
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-
   /* .footer-container > .container {
     max-width: 668px;
     width: 100%;
@@ -159,8 +157,6 @@
 
 /* desctope */
 @media screen and (min-width: 1280px) {
-
-
   .footer {
     padding-top: 80px;
     padding-bottom: 80px;
