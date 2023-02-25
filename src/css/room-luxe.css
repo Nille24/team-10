@@ -204,11 +204,11 @@ body{
         width: 460px;
         height: 574px;
         position: absolute;
-        top: -97px;
+        top: -125px;
         right: 77px;
     }
     .dooble-room-button{
-        bottom: 134px;
-        right: 0px;
+        bottom: 169px;
+        right: -15px;
     }
 }   

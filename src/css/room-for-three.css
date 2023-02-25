@@ -14,7 +14,7 @@ body{
     padding: 0 15px;
 }
 .tripl-room{
-    position: relative;
+    /* position: relative; */
     background-color: #F0ECD6;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -205,7 +205,7 @@ body{
     }
     .tripl-room-button{
         position: absolute;
-        bottom: 105px;
+        bottom: 98px;
         left: 47px;
     }
 }       
@@ -237,7 +237,7 @@ body{
         margin-bottom: 72px;
     }
     .tripl-room-button{
-        bottom: 105px;
+        bottom: 164px;
         left: 0;
     }
 }
