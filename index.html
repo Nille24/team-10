@@ -13,7 +13,7 @@
     />
     
     <script type="module" crossorigin src="/team-10/assets/modal-7ae64c72.js"></script>
-    <link rel="stylesheet" href="/team-10/assets/modal-28547ba8.css">
+    <link rel="stylesheet" href="/team-10/assets/modal-e4284fb7.css">
   </head>
   <body>
     <!-- Header -->
@@ -133,7 +133,7 @@
 </section>
     <!--About our restaurant-->
      <section class="about-restaurant">
-    <div class="container">
+    <div class="container about-rest">
         <h2 class="about-restaurant-title-hidden visually-hidden">About our kitchen</h2>
         <h3 class="about-restaurant-title">Amet minim mollit non</h3>
         <p class="about-restaurant-name">MIMIHO</p>
@@ -143,41 +143,56 @@
                     <div class="about-restaurant-item-wrap top">
                         <p class="about-restaurant-text top">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                         </p>
-                        <img src="/img/homepage_restaurant_interior_1_mobil.jpg"
-                        srcset="/img/homepage_restaurant_interior_1_mobil.jpg 264w, /img/homepage_restaurant_interior_1_tablet.jpg 400w, /img/homepage_restaurant_interior_1_desktop.jpg 460w"
-                        alt="restaurant photo" 
-                        width="264"
-                        class="about-restaurant-img top">
-                    </div>`
+                         <picture class="about-rest-top">
+                          <source srcset="/team-10/assets/about-rest-mobile1x-e55c10a7.jpg 1x, /team-10/assets/about-rest-mobile2x-3b1bc8e0.jpg 2x" media="(max-width:1023px)" width="244" height="322">
+                          <source srcset="/team-10/assets/about-rest-tablet1x-e1ea962d.jpg 1x, /team-10/assets/about-rest-tablet2x-38b19afd.jpg 2x" media="(max-width:1279px)" width="400"> 
+                          <source srcset="/team-10/assets/about-rest-desktop1x-e5b5cf23.jpg 1x, /team-10/assets/about-rest-desktop2x-bc590f84.jpg 2x" media="(min-width:1280px)" width="460" height="574">
+                          <img src="/team-10/assets/restaurant-interior 1 (3)-a482d183.jpg" alt="restaurant">
+                         </picture>
                 </li>
                 <li class="about-restaurant-item">
                    <div class="about-restaurant-item-wrap btm">
-                        <p class="about-restaurant-text btm">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                        </p>
-                        <img src="/img/homepage_restaurant_interior_2_mobil.jpg"
-                        srcset="/img/homepage_restaurant_interior_2_mobil.jpg 264w, /img/homepage_restaurant_interior_2_tablet.jpg 400w, /img/homepage_restaurant_interior_2_desktop.jpg 460w"
-                        alt="restaurant interior" 
-                        width="200"
-                        class="about-restaurant-img btm">
+                    <p class="about-restaurant-text btm">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <picture class="about-rest-btm">
+                      <source srcset="/team-10/assets/about-rest-second-mobile1x-c03638a2.jpg 1x, /team-10/assets/about-rest-second-mobile2x-34f9e980.jpg 2x" media="(max-width:1023px)" width="200" height="278">
+                      <source srcset="/team-10/assets/about-rest-second-tablet1x-2f1be9dd.jpg 1x, /team-10/assets/about-rest-second-tablet2x-4a46af08.jpg 2x" media="(max-width:1279px)" width="350" >
+                      <source srcset="./img/about-rest-second-desktop1x.jpg 1x, ./img/about-rest-second-desktop2x.jpg 2x" media="(min-width:1280px)" width="460" height="574">
+                      <img src="/team-10/assets/about-rest-second-a6051fa3.jpg" alt="restaurant-interior" >
+                    </picture>
+                    
                    </div>
                 </li>
             </ul>
         </div>
-        <div class="swiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="/team-10/assets/rest-slide-1-b76f0566.jpg"
-                class="swiper-about-rest"
-                alt="Glass of red wine"
-                width="245">
-              </div>
-              <div class="swiper-slide">
-                <img src="/team-10/assets/rest-slide-2-0247e794.jpg"
-                class="swiper-about-rest"
-                alt="Table with many plates"
-                width="245">
-              </div>
-            </div>
+              <picture class="swiper-wine">
+                <source srcset="/team-10/assets/slider-wine-mobile1x-a2e5c305.jpg 1x, /team-10/assets/swiper-wine-mobile2x-2913540e.jpg 2x" media="(max-width: 1023px)" width="245">
+                <source srcset="/team-10/assets/slider-wine-tablet1x-370ce367.jpg 1x, /team-10/assets/slider-wine-tablet2x-584d1610.jpg 2x" media="(max-width: 1279px)" width="194">
+                <source srcset="/team-10/assets/slider-wine-desktop1x-fab45227.jpg 1x, /team-10/assets/slider-wine-desktop2x-4cf8388d.jpg 2x" media="(min-width: 1280px)" width="254">
+                <img src="/team-10/assets/slider-wine-desktop1x-fab45227.jpg" alt="red wine">
+              </picture>
+
+              <picture class="swiper-service">
+                <source srcset="/team-10/assets/swiper-service-tablet1x-306f35d2.jpg 1x, /team-10/assets/swiper-service-tablet2x-8e9df85a.jpg 2x" media="(max-width: 1023px)" width="245" height="245">
+                <source srcset="/team-10/assets/swiper-service-tablet1x-306f35d2.jpg 1x, /team-10/assets/swiper-service-tablet2x-8e9df85a.jpg 2x" media="(max-width: 1279px)" width="194">
+                <source srcset="./img/swiper-servise-desktop1x.jpg 1x, ./img/swiper-service-desktop2x.jpg 2x," media="(min-width: 1280px)" width="254">
+                <img src="/team-10/assets/swiper-servise-desktop1x-5fde292e.jpg" alt="tabel with service" src="." >
+              </picture> 
+          </div>
+
+          <div class="swiper-arrow">
+            <ul class="swiper-arrow-list">
+              <li class="arrow-item">
+            <svg class="icon-arrow" width="32" height="32">
+             <use href="../img/symbol-defs.svg#icon-arrow-left"></use>
+            </svg>
+              </li>
+              <li class="arrow-item">
+                <svg class="icon-arrow" width="32" height="32">
+                  <use href="../img/symbol-defs.svg#icon-arrow-right"></use>
+                 </svg>
+              </li>
+            </ul>
           </div>
     </div>
 </section> 
@@ -213,7 +228,7 @@
                       <p class="about-hotel-text top">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                       </p>
                       <img src="/team-10/assets/homepage_hotelrooms_1_mobile-3283a811.jpg"
-                      srcset="/team-10/assets/homepage_hotelrooms_1_mobile-3283a811.jpg 264w, /team-10/assets/homepage_hotelrooms_1_tablet-949d81b3.jpg 400w, /team-10/assets/homepage_hotelrooms_1_desktop-f77444d0.jpg 460w"
+                      srcset="/team-10/assets/homepage_hotelrooms_1_mobile-3283a811.jpg 264w, /team-10/assets/hotel_hotelrooms_tablet-949d81b3.jpg 400w, /team-10/assets/homepage_hotelrooms_1_desktop-f77444d0.jpg 460w"
                       alt="Hotel room photo" 
                       width="264"
                       class="about-hotel-img top">
