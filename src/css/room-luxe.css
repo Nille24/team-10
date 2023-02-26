@@ -87,6 +87,7 @@ body{
     display: flex;
     gap: 34px;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 .slide-icon{
     display: inline-block;

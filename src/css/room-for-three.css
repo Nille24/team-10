@@ -141,7 +141,6 @@ body{
     gap: 16px;
 }
 .slide-icons-tripl{
-    width: 400px;
     display: flex;
     justify-content: end;
     gap: 34px;
