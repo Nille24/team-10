@@ -2,7 +2,7 @@ body{
     width: 100vw;
     margin: 0;
 }
-.conteiner{
+.container{
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
@@ -73,6 +73,7 @@ body{
 
 }
 .slide-img{
+    overflow: hidden;
     margin-top: 32px;
     margin-bottom: 20px;
     display: flex;
@@ -102,13 +103,13 @@ body{
     align-items: center;
 }
 @media screen and (min-width: 414px) {
-    .conteiner{
+    .container{
         width: 414px;
     }
     
 }
 @media screen and (min-width: 1024px) {
-    .conteiner{
+    .container{
         width: 994px;
         position: relative;
     }
@@ -166,7 +167,7 @@ body{
     }
 }    
 @media screen and (min-width: 1280px) {
-    .conteiner{
+    .container{
         width: 1100px;
         padding-left: 15px;
         padding-right: 15px;
