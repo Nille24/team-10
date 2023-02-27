@@ -6,9 +6,54 @@
 <h2 class="restaurant-name">Ресторан</h2>
 <p class="info-restaurant">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
 </div>
+<div class="set-swiper">
 <div class="set">
 <button type="button" class="book-a-table js-open-modal" data-modal="1">Забронювати столик</button>
 <a class="restaurant-link" href="./restaurant-page.html">Переглянути меню</a>
+</div>
+<div class="swiper-det-rest">
+    <ul class="swiper-det-list">
+        <li class="det-rest-img">
+            <picture>
+                <source srcset="./img/meat-det-rest-mobile1x.jpg 1x, ./img/meat-det-rest-mobile2x.jpg 2x" media="(max-width:1023px)" width="274">
+                <source srcset="./img/meat-det-rest-tablet1x.jpg 1x, ./img/meat-det-rest-tablet2x.jpg 2x" media="(min-width:1024px)" width="270">
+                <source srcset=" ./img/meat-det-rest-desktop1x.jpg 1x, ./img/meat-det-rest-desktop2x.jpg 2x" media="(min-width:1280px)" width="270">
+                <img src="" alt="meat">
+            </picture>
+        </li>
+        <li class="det-rest-img">
+            <picture class="pic-hidden">
+                <source srcset="./img/fish-det-rest-tablet1x.jpg 1x, ./img/fish-det-rest-tablet2x.jpg 2x" media="(max-width:1023px)" width="274" height="274">
+                <source srcset="./img/fish-det-rest-tablet1x.jpg 1x, ./img/fish-det-rest-tablet2x.jpg 2x" media="(min-width:1024px)" width="162">
+                <source srcset="./img/fish-det-rest-desktopx.jpg 1x, ./img/fish-det-rest-desktop2x.jpg 2x" media="(min-width:1280px)" width="162">
+                <img src="./img/fish-det-rest-tablet1x.jpg" alt="plate with fish">
+            </picture>
+        </li>
+        <li class="det-rest-img">
+        <picture>
+            <source srcset="./img/salat-det-rest-desktop1x.jpg 1x, ./img/salat-det-rest-desktop2x.jpg 2x" media="(min-width:1280px)" width="270">
+            <source srcset="./img/salat-det-rest-tablet1x.jpg 1x, ./img/salat-det-rest-tablet2x.jpg 2x" media="(min-width:320px)" width="162">
+            <source srcset="./img/salat-det-rest-tablet1x.jpg 1x, ./img/salat-det-rest-tablet2x.jpg 2x" media="(max-width:1279px)" width="162">
+            <img src="/img/salat-det-rest-desktop1x.jpg" alt="">
+        </picture>
+        </li>
+    </ul>
+</div>
+</div>
+<div class="swiper-arrow right">
+    <ul class="swiper-arrow-list det-rest">
+      <li class="arrow-item">
+    <svg class="icon-arrow det" width="32" height="32">
+     <use href="./img/symbol-defs.svg#icon-arrow-left"></use>
+    </svg>
+      </li>
+      <li class="arrow-item">
+        <svg class="icon-arrow det" width="32" height="32">
+          <use href="./img/symbol-defs.svg#icon-arrow-right"></use>
+         </svg>
+      </li>
+    </ul>
+  </div>
 </div>
 </div>
 </section>
