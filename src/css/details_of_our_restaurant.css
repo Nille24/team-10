@@ -25,6 +25,10 @@ background-image: linear-gradient( rgba(0, 0, 0, 0.7) ,  rgba(0, 0, 0, 0.7)) , u
   width: 259px;
 }
 
+.swiper-det-rest{
+  overflow: hidden;
+}
+
 
 .hero-name-restaurant{
 width: 127px;
@@ -69,8 +73,9 @@ color: var(--third-grey);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  position: relative;
-  top: 445px;
+  flex-direction: column;
+  /* position: relative;
+  top: 445px; */
 }
 
 
@@ -93,11 +98,18 @@ transition: border var(--transition) , bakcground var(--transition) ;
 
 .book-a-table:hover,
 .book-a-table:focus{
-  background:var(--white-color) ;
-  border: 2px solid var(--accent-color);
+  background:var(--accent-color) ;
+  color: var(--black);
+  border-color: transparent;
+  transition: var(--transition);
 }
 
 .restaurant-link{
+display: flex;
+justify-content: center;
+align-items: center;
+min-width: 236px;
+height: 48px;
 background: rgba(0, 0, 0, 0.4);
 border: 2px solid var(--white-color);
 border-radius: 25px;
@@ -108,27 +120,73 @@ font-size: 16px;
 line-height: 1.25;
 letter-spacing: 0.02em;
 color: var(--accent-color); 
-padding: 14px 31px;
 transition: border var(--transition) , bakcground var(--transition) ;
 }
 
 .restaurant-link:hover,
 .restaurant-link:focus{
-  background:var(--white-color) ;
-  border: 2px solid var(--accent-color);
+  background:var(--accent-color) ;
+  color: var(--black);
+  border-color: transparent;
+  
 }
 
+.swiper-det-list{
+  gap: 86px;
+  display: flex;
+}
+
+.set-swiper{
+  display: flex;
+}
+
+.det{
+  fill: var(--white-color);
+}
 
 /* ------------------pre-mobil----------------- */
 
-@media screen and (max-width: 414px) {
-.info-rest{
+@media screen and (max-width: 1023px) {
+
+.details-of-our-restaurant{
+  height: auto;
+}
+
+.set{
+  align-items: center;
+  margin-top: 80px;
+}
+
+.right{
+  position: relative;
+  bottom: 200px;
+}
+
+.book-a-table{
+  min-width: 232px;
+  
+}
+.swiper-det-list{
+  gap: 19px;
+}
+  .info-rest{
   position: unset;
   margin-left: auto;
 }
 
+.set-swiper{
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column-reverse;
+}
 
+.pic-hidden{
+  display: none;
+}
 
+.det-rest{
+  justify-content: start;
+}
  
   }
 
@@ -162,10 +220,15 @@ transition: border var(--transition) , bakcground var(--transition) ;
   }
 
   .set{
-    display: inline-grid;
-    position: relative;
+    justify-content: end;
+    margin-right: 39px;
+    /* position: relative;
     top: 262px;
-    left: 32px;
+    left: 32px; */
+  }
+
+  .swiper-det-list{
+    gap: 34px;
   }
 
   .hero-name-restaurant{
@@ -189,6 +252,11 @@ transition: border var(--transition) , bakcground var(--transition) ;
     line-height: 1.25;
     }
 
+    .det-rest{
+      justify-content: start;
+      margin-left: 280px;
+     }
+
 
   }
   
@@ -198,6 +266,10 @@ transition: border var(--transition) , bakcground var(--transition) ;
     
 
 
+   .det-rest{
+    justify-content: start;
+    margin-left: 330px;
+   }
 
     .details-of-our-restaurant{
       background-image:linear-gradient(rgba(0, 0, 0, 0.65) , rgba(0, 0, 0, 0.65)) , url(../img/homepage_restaurant_bg_desktop.jpg);
@@ -219,11 +291,17 @@ transition: border var(--transition) , bakcground var(--transition) ;
 
 
 .set{
-  display: inline-grid;
-  left: 70px;
+  justify-content: end;
+  margin-right: 32px;
+ 
+  /* left: 70px; */
 }
 
 
-
+.set-swiper{
+  display: flex;
+  margin-top: 40px;
+  padding-left: 70px;
+}
 
   }
