@@ -6,7 +6,7 @@ body{
     margin: 0;
     background-color: #fffdee;
 }
-.conteiner-trip{
+.container-trip{
     position: relative;
     max-width: 414px;
     margin-left: auto;
@@ -14,7 +14,7 @@ body{
     padding: 0 15px;
 }
 .tripl-room{
-    position: relative;
+    /* position: relative; */
     background-color: #F0ECD6;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -141,7 +141,6 @@ body{
     gap: 16px;
 }
 .slide-icons-tripl{
-    width: 400px;
     display: flex;
     justify-content: end;
     gap: 34px;
@@ -205,7 +204,7 @@ body{
     }
     .tripl-room-button{
         position: absolute;
-        bottom: 105px;
+        bottom: 98px;
         left: 47px;
     }
 }       
@@ -237,7 +236,11 @@ body{
         margin-bottom: 72px;
     }
     .tripl-room-button{
+<<<<<<< Updated upstream
         bottom: 156px;
+=======
+        bottom: 164px;
+>>>>>>> Stashed changes
         left: 0;
     }
 }
