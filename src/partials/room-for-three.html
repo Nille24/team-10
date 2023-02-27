@@ -1,35 +1,51 @@
 <section class="tripl-room">
-    <div class="conteiner">
+    <div class="container">
         <p class="trip-pre-title">Amet minim mollit non</p>
         <h3 class="trip-title">MIMIHO</h3>
         <h4 class="room-trip-title">ТРЬОХМІСНИЙ НОМЕР</h4>
         <p class="room-trip-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-        <div class="room-img-trip">
-            <picture class="img-room-trip">
-                <source srcset="./img/hotel_hotelrooms_tablet.jpg" media="(mix-width: 1024px)">
-                <source srcset="./img/hotel_hotelrooms_desktop.jpg" media="(min-width: 1280px)">
-                <img src="./img/hotel_hotelrooms_mobile.jpg" alt="hotel room" width="400px" height="525px">
-              </picture>
-        </div>
+        <img 
+            src="./img/hotel_hotelrooms_mobile.jpg" 
+            srcset="./img/hotel_hotelrooms_mobile.jpg 244w,
+        ./img/hotel_hotelrooms_tablet.jpg 400w,
+        ./img/hotel_hotelrooms_desktop.jpg 460w"
+            alt="room-luxe"
+            class="room-img-trip"
+            sizes="244px">
         <div class="slide-img-trip">
-            <img src="./img/slide-1-1x-tablet.jpeg" alt="arrangement-pf-bathroom-elements">
-            <img src="./img/slide-2-1x-mobile.jpeg" alt="window">
+            <img 
+                src="./img/slide-1-1x-tablet.jpeg" 
+                srcset="
+                    ./img/slide-1-1x-tablet.jpeg 194w,
+                    ./img/slide-1-1x-desktop.jpeg 254w"
+                alt="arrangement-pf-bathroom-elements"
+                class="slider-img"
+                sizes="194px">
+            <img 
+                src="
+                ./img/slide-2-1x-mobile.jpeg" 
+                srcset="
+                ./img/slide-2-1x-mobile.jpeg 194w,
+                ./img/slide-2-1x-desktop.jpeg 254w"
+                alt="window"
+                class="slider-img"
+                sizes="194px">
         </div>
         <div class="slide-icons-tripl">
             <svg class="slide-icon">
-                <use href="./img/symbol-defs.svg#icon-arrow-left"></use>
+                <use href="../img/symbol-defs.svg#icon-arrow-left"></use>
             </svg>
             <svg class="slide-icon">
-                <use href="./img/symbol-defs.svg#icon-arrow-right"></use>
+                <use href="../img/symbol-defs.svg#icon-arrow-right"></use>
             </svg>
         </div>
-    </div>
         <div class="tripl-room-button">
-            <a rel="details" href="./page-room-third.html" class="lux-info">
+            <a rel="details" href="../page-room-third.html" class="lux-info">
                 Детальніше
             </a>
-            <button class="lux-price js-open-modal" data-modal="3">
+            <button class="lux-price">
                 Переглянути ціни
             </button>
         </div>
+    </div>
 </section>
