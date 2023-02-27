@@ -16,7 +16,33 @@
   margin-right: auto;
   padding-top: 16px;
   padding-bottom: 16px;
+
+  transition: color var(--transition);
 }
+
+.logo-header:hover,
+.logo-header:focus {
+  color: var(--brown-color);
+} 
+
+.link-nav-page{
+  transition: color var(--transition);
+}
+
+.link-nav-page:hover,
+.link-nav-page:focus {
+color: var(--brown-color);
+}
+
+.link-nav-tel .icon-phone {
+  transition: stroke var(--transition);
+}
+
+.link-nav-tel:hover .icon-phone,
+.link-nav-tel:focus .icon-phone {
+stroke: var(--brown-color);
+}
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -62,6 +88,7 @@
 @media screen and (min-width: 414px) {
   .logo-header {
     font-size: 36px;
+    margin-right: 42px;
   }
 
   .header-nav-ul {
@@ -79,6 +106,7 @@
     font-size: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-right: 197px;
   }
 
   .header-nav-li:not(:last-child) {
@@ -98,6 +126,7 @@
     letter-spacing: 0.02em;
   }
 
+
   .header-nav-ul {
     font-weight: 500;
     font-size: 20px;
@@ -109,12 +138,19 @@
     display: flex;
     align-items: center;
     gap: 4px;
-    padding: 8px;
     min-width: 144px;
     height: 40px;
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
+
+    transition: border var(--transition);
   }
+
+  .link-nav-tel:hover,
+.link-nav-tel:focus {
+  border: 1px solid var(--brown-color);
+}
+
 }
 
 /* ------------------------desktop------------------------ */
@@ -136,7 +172,7 @@
   }
 
   .logo-header {
-    margin-right: 125px;
+    margin-right: 250px;
   }
 
   .social-li-header:not(:last-child) {
@@ -145,7 +181,18 @@
 
   .social-link-header {
     display: flex;
+   
   }
+
+  .header-icon {
+    transition: stroke var(--transition);
+  }
+
+.header-icon:hover,
+.header-icon:focus {
+  stroke: var(--brown-color);
+}
+
 }
 
 /* ----------------Отдельные промежутки----------- */
