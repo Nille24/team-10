@@ -82,6 +82,10 @@ margin-bottom: 32px;
     justify-content: flex-end;
 }
 
+.kitchen-swiper{
+    justify-content: start;
+}
+
 @media screen and (min-width: 414px) {
 
    
@@ -138,6 +142,10 @@ margin-bottom: 32px;
         justify-content: flex-end;
     }
 
+    .kit{
+        margin-left: 480px;
+    }
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -153,5 +161,9 @@ margin-bottom: 32px;
 
     .kitchen-img.btm {
         width: 460px;
+    }
+
+    .kit{
+        margin-left: 740px;
     }
 }
