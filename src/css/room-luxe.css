@@ -102,15 +102,15 @@ body{
     justify-content: center;
     align-items: center;
 }
-@media screen and (min-width: 414px) {
+/* @media screen and (min-width: 414px) {
     .container{
         width: 414px;
     }
     
-}
+} */
 @media screen and (min-width: 1024px) {
     .container{
-        width: 994px;
+        /* width: 994px; */
         position: relative;
     }
     .room-lux{
