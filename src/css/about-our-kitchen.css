@@ -79,11 +79,15 @@ margin-bottom: 32px;
 .swiper-wrapper {
     display: flex;
     gap: 24px;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
-.kitchen-swiper{
-    justify-content: start;
+.swiper-slide{
+    width: 245px;
+}
+
+.swiper-img {
+    max-width: 245px;
 }
 
 @media screen and (min-width: 414px) {
@@ -142,8 +146,16 @@ margin-bottom: 32px;
         justify-content: flex-end;
     }
 
+    .swiper {
+        overflow: hidden;
+    }
+
     .kit{
         margin-left: 480px;
+    }
+
+    .swiper-wrapper {
+        justify-content: flex-end;
     }
 
 }
